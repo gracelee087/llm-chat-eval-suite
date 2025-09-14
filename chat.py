@@ -8,8 +8,8 @@ from llm import get_ai_response
 
 st.set_page_config(page_title="Unity Financial Group Chatbot", page_icon="🤖")
 
-st.title("🤖 Financial Reporting Standards & Employee Handbook Chatbot")
-st.caption("I can answer any questions you have about Financial Reporting Standards and the Employee Handbook!")
+st.title("🤖 Financial Reporting Standards")
+st.caption("I can answer any questions you have about Financial Reporting Standards!")
 
 load_dotenv()
 

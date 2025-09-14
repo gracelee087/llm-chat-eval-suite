@@ -27,12 +27,21 @@ def get_session_history(session_id: str) -> BaseChatMessageHistory:
 
 def get_retriever():
     """
-    Pinecone에 'guide-index'가 이미 존재한다고 가정하고 retriever를 반환합니다.
+    Pinecone에 'guide-index-optimized'가 이미 존재한다고 가정하고 retriever를 반환합니다.
     """
     embedding = OpenAIEmbeddings(model='text-embedding-3-large')
-    index_name = 'guide-index'
+    index_name = 'guide-index'  # guide-index 사용
     database = PineconeVectorStore.from_existing_index(index_name=index_name, embedding=embedding)
-    retriever = database.as_retriever(search_kwargs={'k': 4})
+    
+    # 검색 파라미터 최적화
+    retriever = database.as_retriever(
+        search_type="similarity_score_threshold",  # 점수 기반 검색
+        search_kwargs={
+            'k': 6,  # 더 많은 문서 검색 (4 -> 6)
+            'score_threshold': 0.7,  # 점수 임계값 설정
+            'include_metadata': True  # 메타데이터 포함
+        }
+    )
     return retriever
 
 
@@ -46,7 +55,8 @@ def get_history_retriever():
         "which might reference context in the chat history, "
         "formulate a standalone question which can be understood "
         "without the chat history. Do NOT answer the question, "
-        "just reformulate it if needed and otherwise return it as is."
+        "just reformulate it if needed and otherwise return it as is. "
+        "Make sure to include relevant keywords for better document retrieval."
     )
 
     contextualize_q_prompt = ChatPromptTemplate.from_messages(
@@ -76,7 +86,7 @@ def get_rag_chain():
     llm = get_llm()
     
     system_prompt = (
-        "You are an expert financial analyst. Answer the user's questions about financial analysis."
+        "You are an expert financial analyst. Answer the user's questions about Financial Reporting Standards and Employee Handbook."
         "Please use the provided document to answer the question, and if you cannot find the answer, just say you don't know."
         "\n\n"
         "{context}"
