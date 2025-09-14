@@ -1,3 +1,7 @@
+import warnings
+# Pydantic v2 경고 무시
+warnings.filterwarnings("ignore", category=DeprecationWarning, module="langchain_pinecone")
+
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder, FewShotChatMessagePromptTemplate
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
@@ -10,25 +14,30 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 
-from config import answer_examples
-
+# Few-shot 예시는 현재 사용하지 않음
 store = {}
 
 
 def get_session_history(session_id: str) -> BaseChatMessageHistory:
+    """세션 ID에 해당하는 채팅 기록을 가져오거나 새로 생성합니다."""
     if session_id not in store:
         store[session_id] = ChatMessageHistory()
     return store[session_id]
 
 
 def get_retriever():
+    """
+    Pinecone에 'guide-index'가 이미 존재한다고 가정하고 retriever를 반환합니다.
+    """
     embedding = OpenAIEmbeddings(model='text-embedding-3-large')
-    index_name = 'tax-markdown-index'
+    index_name = 'guide-index'
     database = PineconeVectorStore.from_existing_index(index_name=index_name, embedding=embedding)
     retriever = database.as_retriever(search_kwargs={'k': 4})
     return retriever
 
+
 def get_history_retriever():
+    """채팅 기록을 고려하여 검색 질문을 재구성하는 retriever를 생성합니다."""
     llm = get_llm()
     retriever = get_retriever()
     
@@ -55,45 +64,20 @@ def get_history_retriever():
 
 
 def get_llm(model='gpt-4o'):
+    """주요 LLM 모델 객체를 생성합니다."""
     llm = ChatOpenAI(model=model)
     return llm
 
 
-def get_dictionary_chain():
-    dictionary = ["사람을 나타내는 표현 -> 거주자"]
-    llm = get_llm()
-    prompt = ChatPromptTemplate.from_template(f"""
-        사용자의 질문을 보고, 우리의 사전을 참고해서 사용자의 질문을 변경해주세요.
-        만약 변경할 필요가 없다고 판단된다면, 사용자의 질문을 변경하지 않아도 됩니다.
-        그런 경우에는 질문만 리턴해주세요
-        사전: {dictionary}
-        
-        질문: {{question}}
-    """)
-
-    dictionary_chain = prompt | llm | StrOutputParser()
-    
-    return dictionary_chain
-
-
 def get_rag_chain():
+    """
+    RAG 체인 및 프롬프트를 재구성합니다.
+    """
     llm = get_llm()
-    example_prompt = ChatPromptTemplate.from_messages(
-        [
-            ("human", "{input}"),
-            ("ai", "{answer}"),
-        ]
-    )
-    few_shot_prompt = FewShotChatMessagePromptTemplate(
-        example_prompt=example_prompt,
-        examples=answer_examples,
-    )
+    
     system_prompt = (
-        "당신은 소득세법 전문가입니다. 사용자의 소득세법에 관한 질문에 답변해주세요"
-        "아래에 제공된 문서를 활용해서 답변해주시고"
-        "답변을 알 수 없다면 모른다고 답변해주세요"
-        "답변을 제공할 때는 소득세법 (XX조)에 따르면 이라고 시작하면서 답변해주시고"
-        "2-3 문장정도의 짧은 내용의 답변을 원합니다"
+        "You are an expert financial analyst. Answer the user's questions about financial analysis."
+        "Please use the provided document to answer the question, and if you cannot find the answer, just say you don't know."
         "\n\n"
         "{context}"
     )
@@ -101,7 +85,6 @@ def get_rag_chain():
     qa_prompt = ChatPromptTemplate.from_messages(
         [
             ("system", system_prompt),
-            few_shot_prompt,
             MessagesPlaceholder("chat_history"),
             ("human", "{input}"),
         ]
@@ -123,12 +106,12 @@ def get_rag_chain():
 
 
 def get_ai_response(user_message):
-    dictionary_chain = get_dictionary_chain()
+    """사용자의 메시지에 대한 AI의 답변을 스트리밍 방식으로 반환합니다."""
     rag_chain = get_rag_chain()
-    tax_chain = {"input": dictionary_chain} | rag_chain
-    ai_response = tax_chain.stream(
+    
+    ai_response = rag_chain.stream(
         {
-            "question": user_message
+            "input": user_message
         },
         config={
             "configurable": {"session_id": "abc123"}
