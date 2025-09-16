@@ -76,7 +76,6 @@ results = run_ragas_evaluation()
 print(f"Answer Relevancy: {results['average_metrics']['answer_relevancy']:.3f}")
 ```
 
-![RAGAS Evaluation Running](ragas_evaluation_running.png)
 
 ### Custom Question Evaluation
 ```python
