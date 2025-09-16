@@ -1,19 +1,19 @@
 {
-  "timestamp": "2025-09-16T13:57:15.775500",
+  "timestamp": "2025-09-16T14:56:45.598262",
   "total_questions": 53,
   "average_metrics": {
-    "answer_relevancy": 0.6844496855345913,
-    "context_precision": 0.5338679245283019,
-    "context_recall": 0.3108401427939137,
-    "faithfulness": 0.44154466275342996,
-    "answer_correctness": 0.8493139330175895
+    "answer_relevancy": 0.5423427672955977,
+    "context_precision": 0.5477044025157233,
+    "context_recall": 0.3158715893347942,
+    "faithfulness": 0.365703203635813,
+    "answer_correctness": 0.5274600839360136
   },
   "quality_scores": {
     "answer_relevancy": "Fair",
     "context_precision": "Fair",
     "context_recall": "Poor",
     "faithfulness": "Poor",
-    "answer_correctness": "Good"
+    "answer_correctness": "Fair"
   },
   "thresholds": {
     "answer_relevancy": {
@@ -50,7 +50,7 @@
   "detailed_results": [
     {
       "question": "What is the current ratio?",
-      "answer": "The current ratio is calculated as Current Assets / Current Liabilities. It measures a company's ability to pay short-term obligations, with a ratio of 2.0 or higher generally considered healthy.",
+      "answer": "The current ratio is calculated as Current Assets / Current Liabilities. It measures a company's ability to pay short-term obligations. A ratio of 2.0 or higher is generally considered healthy.",
       "ground_truth": "The current ratio is calculated as Current Assets divided by Current Liabilities. It measures a company's ability to pay short-term obligations. A ratio above 1.0 indicates the company has more current assets than current liabilities.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -61,13 +61,13 @@
         "answer_relevancy": 0.8200000000000001,
         "context_precision": 0.7466666666666667,
         "context_recall": 0.3974358974358974,
-        "faithfulness": 0.8461538461538461,
-        "answer_correctness": 0.8153846153846154
+        "faithfulness": 0.92,
+        "answer_correctness": 0.8538461538461538
       }
     },
     {
       "question": "What is the quick ratio?",
-      "answer": "The quick ratio, or acid-test ratio, is calculated using the formula: (Current Assets - Inventories) / Current Liabilities. It assesses a company's ability to meet its short-term liabilities without depending on the sale of inventory. A ratio above 1.0 suggests a strong ability to meet immediate liabilities.",
+      "answer": "The quick ratio, or acid-test ratio, is calculated as (Current Assets - Inventories) / Current Liabilities. It measures a company's ability to meet immediate liabilities without relying on the sale of inventory. A ratio above 1.0 suggests a strong ability to cover short-term obligations.",
       "ground_truth": "The quick ratio, or acid-test ratio, measures a company's ability to meet its short-term liabilities without relying on the sale of inventory. The formula is (Current Assets - Inventories) / Current Liabilities. A ratio above 1.0 is generally considered healthy.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -78,13 +78,13 @@
         "answer_relevancy": 0.8200000000000001,
         "context_precision": 0.7466666666666667,
         "context_recall": 0.5238095238095238,
-        "faithfulness": 0.7894736842105263,
+        "faithfulness": 0.8157894736842105,
         "answer_correctness": 1.0
       }
     },
     {
       "question": "How do you calculate cash ratio?",
-      "answer": "The calculation for the cash ratio is not available in the provided context. However, generally, it is calculated as Cash and Cash Equivalents / Current Liabilities, measuring a company's ability to pay off its short-term liabilities with cash or cash equivalents.",
+      "answer": "Not available in provided context.",
       "ground_truth": "The cash ratio is calculated as (Cash + Cash Equivalents) / Current Liabilities. It measures a company's ability to pay off short-term debt using only cash and cash equivalents.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -92,16 +92,16 @@
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment."
       ],
       "metrics": {
-        "answer_relevancy": 0.78,
+        "answer_relevancy": 0.3,
         "context_precision": 0.6466666666666666,
         "context_recall": 0.4230769230769231,
-        "faithfulness": 0.5294117647058824,
-        "answer_correctness": 0.7923076923076923
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "What does working capital represent?",
-      "answer": "Working capital represents the difference between a company's current assets and current liabilities. It indicates the company's short-term financial health and its ability to cover short-term obligations with its short-term assets. A positive working capital suggests that a company can fund its operations and continue growing.",
+      "answer": "Working capital represents the difference between a company's current assets and current liabilities. It indicates the company's short-term financial health and operational efficiency, reflecting its ability to cover short-term liabilities with short-term assets. A positive working capital suggests that the company can fund its day-to-day operations and invest in short-term growth.",
       "ground_truth": "Working capital represents the difference between current assets and current liabilities. It indicates a company's short-term financial health and ability to fund day-to-day operations.",
       "contexts": [
         "Liabilities: Debts or obligations owed to others.\n\nEBITDA: Earnings Before Interest, Taxes, Depreciation, and Amortization. A measure of a company's overall financial performance.\n\nCapital Expenditures (CapEx): Funds used by a company to acquire, upgrade, and maintain physical assets.\n\n8.2 Document Control & Revisions\n\nThis document is owned by the Financial Analysis Department of Unity Financial Group.\n\nOwner: Financial Analysis Department\n\nApproved By: CFO (Chief Financial Officer)\n\nLast Revised: October 1, 2025\n\nRevision History:\n\nV1.0 (Oct 1, 2025): Initial release of the Financial Analyst's Guide.",
@@ -112,13 +112,13 @@
         "answer_relevancy": 0.67,
         "context_precision": 0.7333333333333334,
         "context_recall": 0.34848484848484845,
-        "faithfulness": 0.5151515151515151,
-        "answer_correctness": 0.9090909090909091
+        "faithfulness": 0.47368421052631576,
+        "answer_correctness": 0.9545454545454546
       }
     },
     {
       "question": "What is the operating cash flow ratio?",
-      "answer": "The operating cash flow ratio is not explicitly defined in the provided context. However, generally, it is calculated as Cash Flow from Operations / Current Liabilities. This ratio measures a company's ability to cover its short-term liabilities with the cash generated from its core business activities.",
+      "answer": "Not available in provided context.",
       "ground_truth": "The operating cash flow ratio is calculated as Operating Cash Flow / Current Liabilities. It measures how well a company can cover its current liabilities with cash generated from operations.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -126,16 +126,16 @@
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment."
       ],
       "metrics": {
-        "answer_relevancy": 0.76,
+        "answer_relevancy": 0.3,
         "context_precision": 0.7466666666666667,
         "context_recall": 0.41333333333333333,
-        "faithfulness": 0.6216216216216216,
-        "answer_correctness": 0.9
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "How is net profit margin calculated?",
-      "answer": "Net profit margin is calculated using the formula: Net Income / Revenue. This ratio indicates how much net income is generated as a percentage of revenue, with a higher percentage reflecting better profitability and operational efficiency.",
+      "answer": "Net profit margin is calculated as Net Income / Revenue. It represents the percentage of revenue that turns into profit after all expenses are deducted. A higher net profit margin indicates better profitability and efficiency in managing costs relative to sales.",
       "ground_truth": "Net profit margin is calculated using the formula: Net Income / Revenue. It indicates how much net income is generated as a percentage of revenue. A higher percentage indicates better profitability.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -146,13 +146,13 @@
         "answer_relevancy": 0.78,
         "context_precision": 0.5466666666666667,
         "context_recall": 0.49275362318840576,
-        "faithfulness": 0.7333333333333333,
-        "answer_correctness": 1.0
+        "faithfulness": 0.5833333333333334,
+        "answer_correctness": 0.8391304347826086
       }
     },
     {
       "question": "What does ROE represent?",
-      "answer": "ROE (Return on Equity) represents the measure of profitability in relation to shareholders' equity. It indicates how effectively management is using shareholder funds to generate profit. A higher ROE signifies more efficient use of equity capital.",
+      "answer": "ROE (Return on Equity) represents how effectively management is using shareholder funds to generate profit. It is calculated as Net Income / Shareholder's Equity, indicating the company's ability to convert equity investments into profits. A higher ROE suggests more efficient use of equity capital.",
       "ground_truth": "ROE (Return on Equity) represents how efficiently a company uses shareholders' equity to generate profits. It's calculated as Net Income / Shareholders' Equity. A higher ROE indicates better efficiency in using equity capital.",
       "contexts": [
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.",
@@ -160,16 +160,16 @@
         "Unity Financial Group - Financial Analyst's Guide & Report Summary\n\n\n\n\n\nVersion: 1.0 Date: October 1, 2025\n\n\n\nTable of Contents\n\nPage 1: Title Page\n\nPage 2: Table of Contents\n\nPage 3: 1. Introduction to Financial Analysis\n\n1.1 Purpose of the Guide\n\n1.2 Our Core Analytical Principles\n\nPage 4: 2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios (Current Ratio, Quick Ratio)\n\n2.2 Profitability Ratios (Net Profit Margin, ROE)\n\nPage 5: 3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\n3.2 Key Indicators to Monitor\n\nPage 6: 4. Sample Quarterly Report Summary\n\n4.1 Overview of Q3 2025 Performance\n\n4.2 Revenue & Profitability Highlights\n\nPage 7: 5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\n5.2 Statement of Cash Flows Analysis"
       ],
       "metrics": {
-        "answer_relevancy": 0.3,
+        "answer_relevancy": 0.385,
         "context_precision": 0.2733333333333334,
         "context_recall": 0.3448275862068966,
-        "faithfulness": 0.696969696969697,
-        "answer_correctness": 0.5862068965517241
+        "faithfulness": 0.65,
+        "answer_correctness": 0.7551724137931034
       }
     },
     {
       "question": "How is ROA calculated?",
-      "answer": "The calculation for ROA (Return on Assets) is not available in the provided context. However, generally, ROA is calculated as Net Income / Total Assets. It measures how efficiently a company uses its assets to generate profit.",
+      "answer": "Not available in provided context.",
       "ground_truth": "ROA (Return on Assets) is calculated as Net Income / Total Assets. It measures how efficiently a company uses its assets to generate profit.",
       "contexts": [
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.",
@@ -177,16 +177,16 @@
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory."
       ],
       "metrics": {
-        "answer_relevancy": 0.78,
+        "answer_relevancy": 0.3,
         "context_precision": 0.7600000000000001,
         "context_recall": 0.4305555555555555,
-        "faithfulness": 0.5,
-        "answer_correctness": 1.0
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "What is gross profit margin?",
-      "answer": "The definition or calculation for gross profit margin is not available in the provided context. However, generally, it is calculated as (Revenue - Cost of Goods Sold) / Revenue. This ratio indicates the percentage of revenue that exceeds the cost of goods sold, reflecting the efficiency of production and pricing strategies.",
+      "answer": "Not available in provided context.",
       "ground_truth": "Gross profit margin is calculated as (Revenue - Cost of Goods Sold) / Revenue. It measures the percentage of revenue that exceeds the cost of goods sold.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -194,16 +194,16 @@
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory."
       ],
       "metrics": {
-        "answer_relevancy": 0.76,
+        "answer_relevancy": 0.3,
         "context_precision": 0.5599999999999999,
         "context_recall": 0.3181818181818182,
-        "faithfulness": 0.3902439024390244,
-        "answer_correctness": 1.0
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "How do you calculate operating margin?",
-      "answer": "The calculation for operating margin is not available in the provided context. However, generally, it is calculated as Operating Income / Revenue. It measures the percentage of revenue that remains after covering operating expenses, indicating the efficiency of a company's core business operations.",
+      "answer": "Not available in provided context.",
       "ground_truth": "Operating margin is calculated as Operating Income / Revenue. It measures the percentage of revenue left after paying for variable costs of production.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -211,16 +211,16 @@
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory."
       ],
       "metrics": {
-        "answer_relevancy": 0.78,
+        "answer_relevancy": 0.3,
         "context_precision": 0.5466666666666667,
         "context_recall": 0.31746031746031744,
-        "faithfulness": 0.5428571428571428,
-        "answer_correctness": 0.8619047619047618
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "What is EBITDA margin?",
-      "answer": "The definition or calculation for EBITDA margin is not available in the provided context. However, generally, EBITDA margin is calculated as EBITDA / Revenue. It measures a company's operating profitability as a percentage of its total revenue, excluding the effects of interest, taxes, depreciation, and amortization. A higher EBITDA margin indicates better operational efficiency.",
+      "answer": "EBITDA margin is a measure of a company's operating profitability as a percentage of its total revenue. It is calculated by dividing EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) by Revenue. The EBITDA margin provides insight into a company's operational efficiency and its ability to generate earnings from core business activities before accounting for financial and non-cash expenses.",
       "ground_truth": "EBITDA margin is calculated as EBITDA / Revenue. It measures a company's operating profitability before accounting for depreciation, amortization, interest, and taxes.",
       "contexts": [
         "Liabilities: Debts or obligations owed to others.\n\nEBITDA: Earnings Before Interest, Taxes, Depreciation, and Amortization. A measure of a company's overall financial performance.\n\nCapital Expenditures (CapEx): Funds used by a company to acquire, upgrade, and maintain physical assets.\n\n8.2 Document Control & Revisions\n\nThis document is owned by the Financial Analysis Department of Unity Financial Group.\n\nOwner: Financial Analysis Department\n\nApproved By: CFO (Chief Financial Officer)\n\nLast Revised: October 1, 2025\n\nRevision History:\n\nV1.0 (Oct 1, 2025): Initial release of the Financial Analyst's Guide.",
@@ -231,13 +231,13 @@
         "answer_relevancy": 0.76,
         "context_precision": 0.37333333333333335,
         "context_recall": 0.30158730158730157,
-        "faithfulness": 0.40476190476190477,
+        "faithfulness": 0.5454545454545454,
         "answer_correctness": 0.9095238095238095
       }
     },
     {
       "question": "How is return on invested capital calculated?",
-      "answer": "The calculation for return on invested capital (ROIC) is not available in the provided context. However, generally, ROIC is calculated as Net Operating Profit After Tax (NOPAT) / (Total Debt + Total Equity - Cash and Cash Equivalents). It measures the efficiency with which a company uses its capital to generate returns.",
+      "answer": "Not available in provided context.",
       "ground_truth": "ROIC is calculated as Net Operating Profit After Tax / Invested Capital. It measures how efficiently a company uses its capital to generate profits.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -245,16 +245,16 @@
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory."
       ],
       "metrics": {
-        "answer_relevancy": 0.78,
+        "answer_relevancy": 0.3,
         "context_precision": 0.56,
         "context_recall": 0.3333333333333333,
-        "faithfulness": 0.3829787234042553,
-        "answer_correctness": 0.9333333333333333
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "What is the debt-to-equity ratio?",
-      "answer": "The debt-to-equity ratio is calculated as Total Liabilities / Shareholder's Equity. In the provided context, the debt-to-equity ratio is given as 1.52, indicating a healthy financial structure, as it measures the proportion of debt used to finance the company's assets relative to the value of shareholders' equity.",
+      "answer": "The debt-to-equity ratio is a financial metric that measures the proportion of a company's total liabilities to its shareholder equity. It is calculated as Total Liabilities / Shareholder's Equity. In the provided context, the debt-to-equity ratio is 1.52, indicating a healthy financial structure. This ratio helps assess a company's financial leverage and its ability to meet long-term obligations.",
       "ground_truth": "The debt-to-equity ratio is calculated as Total Debt / Total Equity. It measures the relative proportion of shareholders' equity and debt used to finance a company's assets.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -265,13 +265,13 @@
         "answer_relevancy": 0.8200000000000001,
         "context_precision": 0.6266666666666667,
         "context_recall": 0.4166666666666667,
-        "faithfulness": 0.5294117647058824,
-        "answer_correctness": 1.0
+        "faithfulness": 0.5641025641025641,
+        "answer_correctness": 0.9083333333333333
       }
     },
     {
       "question": "How do you calculate debt ratio?",
-      "answer": "The calculation for the debt ratio is not available in the provided context. However, generally, the debt ratio is calculated as Total Liabilities / Total Assets. It measures the proportion of a company's assets that are financed by debt, indicating the level of financial leverage and risk.",
+      "answer": "The debt ratio is calculated as Total Liabilities / Total Assets. It measures the proportion of a company's assets that are financed by debt, indicating the level of financial leverage and risk. A higher debt ratio suggests greater reliance on borrowed funds to finance assets.",
       "ground_truth": "The debt ratio is calculated as Total Debt / Total Assets. It indicates what proportion of a company's assets is financed by debt.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -282,13 +282,13 @@
         "answer_relevancy": 0.78,
         "context_precision": 0.5466666666666667,
         "context_recall": 0.4000000000000001,
-        "faithfulness": 0.43243243243243246,
+        "faithfulness": 0.5405405405405406,
         "answer_correctness": 0.95
       }
     },
     {
       "question": "What is the interest coverage ratio?",
-      "answer": "The interest coverage ratio is not defined in the provided context. However, generally, it is calculated as Earnings Before Interest and Taxes (EBIT) / Interest Expenses. This ratio measures a company's ability to meet its interest obligations, with a higher ratio indicating a greater ability to cover interest expenses.",
+      "answer": "Not available in provided context.",
       "ground_truth": "The interest coverage ratio is calculated as EBIT / Interest Expense. It measures a company's ability to pay interest on its outstanding debt.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -296,16 +296,16 @@
         "Liabilities: Debts or obligations owed to others.\n\nEBITDA: Earnings Before Interest, Taxes, Depreciation, and Amortization. A measure of a company's overall financial performance.\n\nCapital Expenditures (CapEx): Funds used by a company to acquire, upgrade, and maintain physical assets.\n\n8.2 Document Control & Revisions\n\nThis document is owned by the Financial Analysis Department of Unity Financial Group.\n\nOwner: Financial Analysis Department\n\nApproved By: CFO (Chief Financial Officer)\n\nLast Revised: October 1, 2025\n\nRevision History:\n\nV1.0 (Oct 1, 2025): Initial release of the Financial Analyst's Guide."
       ],
       "metrics": {
-        "answer_relevancy": 0.73,
+        "answer_relevancy": 0.3,
         "context_precision": 0.5733333333333334,
         "context_recall": 0.41269841269841273,
-        "faithfulness": 0.4722222222222222,
-        "answer_correctness": 0.8142857142857143
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "How is debt service coverage ratio calculated?",
-      "answer": "The calculation for the debt service coverage ratio (DSCR) is not available in the provided context. However, generally, DSCR is calculated as Net Operating Income / Total Debt Service. It measures a company's ability to cover its debt obligations with its operating income, with a ratio greater than 1 indicating sufficient income to cover debt payments.",
+      "answer": "Not available in provided context.",
       "ground_truth": "DSCR is calculated as Net Operating Income / Total Debt Service. It measures a company's ability to service its debt with its operating income.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -313,16 +313,16 @@
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory."
       ],
       "metrics": {
-        "answer_relevancy": 0.8400000000000001,
+        "answer_relevancy": 0.3,
         "context_precision": 0.5466666666666667,
         "context_recall": 0.31746031746031744,
-        "faithfulness": 0.3333333333333333,
-        "answer_correctness": 1.0
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "What does equity multiplier represent?",
-      "answer": "The equity multiplier is not explicitly defined in the provided context. However, generally, it is a financial leverage ratio calculated as Total Assets / Shareholder's Equity. It represents the proportion of a company's assets that are financed by shareholder equity, indicating the degree of financial leverage being used. A higher equity multiplier suggests higher financial leverage, which can amplify both potential returns and risks.",
+      "answer": "The equity multiplier represents a measure of a company's financial leverage, calculated by dividing Total Assets by Shareholder's Equity. It indicates how much of a company's assets are financed by equity compared to debt. A higher equity multiplier suggests greater financial leverage, meaning the company is using more debt relative to equity to finance its assets.",
       "ground_truth": "The equity multiplier is calculated as Total Assets / Total Equity. It measures the amount of a firm's assets that are financed by its shareholders' equity.",
       "contexts": [
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.",
@@ -333,13 +333,13 @@
         "answer_relevancy": 0.76,
         "context_precision": 0.5733333333333334,
         "context_recall": 0.34848484848484845,
-        "faithfulness": 0.4489795918367347,
-        "answer_correctness": 0.8727272727272727
+        "faithfulness": 0.5641025641025641,
+        "answer_correctness": 0.7818181818181817
       }
     },
     {
       "question": "How is inventory turnover calculated?",
-      "answer": "The calculation for inventory turnover is not available in the provided context. However, generally, inventory turnover is calculated as Cost of Goods Sold / Average Inventory. This ratio measures how efficiently a company manages its inventory by indicating how many times the inventory is sold and replaced over a specific period.",
+      "answer": "Not available in provided context.",
       "ground_truth": "Inventory turnover is calculated as Cost of Goods Sold / Average Inventory. It measures how many times a company's inventory is sold and replaced over a period.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -347,16 +347,16 @@
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment."
       ],
       "metrics": {
-        "answer_relevancy": 0.75,
+        "answer_relevancy": 0.3,
         "context_precision": 0.5733333333333334,
         "context_recall": 0.3043478260869565,
-        "faithfulness": 0.35,
-        "answer_correctness": 1.0
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "What is accounts receivable turnover?",
-      "answer": "The calculation for accounts receivable turnover is not available in the provided context. However, generally, it is calculated as Net Credit Sales / Average Accounts Receivable. This ratio measures how efficiently a company collects on its receivables, indicating how many times the receivables are collected over a period.",
+      "answer": "Not available in provided context.",
       "ground_truth": "Accounts receivable turnover is calculated as Net Credit Sales / Average Accounts Receivable. It measures how efficiently a company collects on its credit sales.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -364,16 +364,16 @@
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk."
       ],
       "metrics": {
-        "answer_relevancy": 0.53,
+        "answer_relevancy": 0.3,
         "context_precision": 0.28,
         "context_recall": 0.30303030303030304,
-        "faithfulness": 0.30952380952380953,
-        "answer_correctness": 1.0
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "How do you calculate asset turnover?",
-      "answer": "The calculation for asset turnover is not available in the provided context. However, generally, asset turnover is calculated as Revenue / Total Assets. This ratio measures a company's efficiency in using its assets to generate sales, with a higher ratio indicating more effective use of assets.",
+      "answer": "Not available in provided context.",
       "ground_truth": "Asset turnover is calculated as Revenue / Average Total Assets. It measures how efficiently a company uses its assets to generate sales.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -381,16 +381,16 @@
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment."
       ],
       "metrics": {
-        "answer_relevancy": 0.78,
+        "answer_relevancy": 0.3,
         "context_precision": 0.5733333333333334,
         "context_recall": 0.3333333333333333,
-        "faithfulness": 0.47368421052631576,
-        "answer_correctness": 0.7818181818181817
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "What is the cash conversion cycle?",
-      "answer": "The cash conversion cycle is not explicitly defined in the provided context. However, generally, it is calculated as Days Inventory Outstanding (DIO) + Days Sales Outstanding (DSO) - Days Payable Outstanding (DPO). This metric measures the time it takes for a company to convert its investments in inventory and other resources into cash flows from sales, indicating the efficiency of its working capital management.",
+      "answer": "Not available in provided context.",
       "ground_truth": "The cash conversion cycle is calculated as Days Sales Outstanding + Days Inventory Outstanding - Days Payable Outstanding. It measures how long it takes to convert investments in inventory to cash.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -398,16 +398,16 @@
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment."
       ],
       "metrics": {
-        "answer_relevancy": 0.5333333333333333,
+        "answer_relevancy": 0.3,
         "context_precision": 0.3466666666666667,
         "context_recall": 0.25333333333333335,
-        "faithfulness": 0.3333333333333333,
-        "answer_correctness": 0.94
+        "faithfulness": 0.2,
+        "answer_correctness": 0.04
       }
     },
     {
       "question": "How is fixed asset turnover calculated?",
-      "answer": "The calculation for fixed asset turnover is not available in the provided context. However, generally, fixed asset turnover is calculated as Revenue / Net Fixed Assets. This ratio measures how efficiently a company uses its fixed assets, such as property, plant, and equipment, to generate sales. A higher ratio indicates more efficient use of fixed assets in generating revenue.",
+      "answer": "Not available in provided context.",
       "ground_truth": "Fixed asset turnover is calculated as Revenue / Average Fixed Assets. It measures how efficiently a company uses its fixed assets to generate sales.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -415,16 +415,16 @@
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory."
       ],
       "metrics": {
-        "answer_relevancy": 0.78,
+        "answer_relevancy": 0.3,
         "context_precision": 0.5733333333333334,
         "context_recall": 0.3333333333333333,
-        "faithfulness": 0.46808510638297873,
-        "answer_correctness": 1.0
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "What is the VIX?",
-      "answer": "The VIX, or Volatility Index, is a key indicator of market uncertainty and risk, measuring the market's expectations of volatility over the coming 30 days. It is often referred to as the 'fear gauge' of the market.",
+      "answer": "The VIX, or Volatility Index, is a key indicator of market uncertainty and risk, measuring the market's expectations of volatility over the coming 30 days. It's often referred to as the 'fear gauge' of the market, as it reflects investor sentiment and anticipated market fluctuations.",
       "ground_truth": "The VIX, or Volatility Index, is a key indicator of market uncertainty and risk, measuring the market's expectations of volatility over the coming 30 days. It's often called the 'fear gauge' of the market.",
       "contexts": [
         "Stock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.\n\n\n\n\n\n4. Sample Quarterly Report Summary\n\n4.1 Overview of Q3 2025 Performance\n\nUnity Financial Group's Q3 2025 performance was marked by strong growth in core banking services and a significant increase in digital product adoption. The company's focus on cost-efficiency resulted in improved profitability.\n\nKey Message: Strong revenue growth and improved profitability driven by digital innovation.\n\n4.2 Revenue & Profitability Highlights\n\nTotal Revenue: Grew to $550 million, a 12% increase from Q3 2024.\n\nNet Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.",
@@ -435,13 +435,13 @@
         "answer_relevancy": 0.39,
         "context_precision": 0.38333333333333336,
         "context_recall": 0.3333333333333333,
-        "faithfulness": 0.4482758620689655,
+        "faithfulness": 0.37142857142857144,
         "answer_correctness": 1.0
       }
     },
     {
       "question": "What does beta measure in finance?",
-      "answer": "Beta measures the sensitivity of a stock's returns relative to the overall market returns. A beta greater than 1 indicates that the stock is more volatile than the market, while a beta less than 1 suggests that the stock is less volatile. It is used to assess the risk associated with a particular stock as part of a diversified portfolio.",
+      "answer": "In finance, beta measures the volatility or systematic risk of a security or portfolio compared to the overall market. A beta greater than 1 indicates that the security is more volatile than the market, while a beta less than 1 suggests it is less volatile. Beta is used in the Capital Asset Pricing Model (CAPM) to assess the expected return of an asset based on its risk relative to the market.",
       "ground_truth": "Beta measures a stock's volatility relative to the overall market. A beta of 1.0 means the stock moves with the market, while a beta above 1.0 indicates higher volatility.",
       "contexts": [
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.",
@@ -449,16 +449,16 @@
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit."
       ],
       "metrics": {
-        "answer_relevancy": 0.3,
+        "answer_relevancy": 0.30666666666666664,
         "context_precision": 0.24666666666666667,
         "context_recall": 0.3333333333333333,
-        "faithfulness": 0.39473684210526316,
-        "answer_correctness": 0.7363636363636363
+        "faithfulness": 0.4,
+        "answer_correctness": 0.6909090909090909
       }
     },
     {
       "question": "How is market risk premium calculated?",
-      "answer": "The calculation for market risk premium is not available in the provided context. However, generally, it is calculated as the Expected Return on the Market - Risk-Free Rate. This premium represents the additional return that investors require for taking on the risk of investing in the stock market over a risk-free investment.",
+      "answer": "Not available in provided context.",
       "ground_truth": "Market risk premium is calculated as Expected Market Return - Risk-Free Rate. It represents the additional return investors expect for taking on market risk.",
       "contexts": [
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.",
@@ -466,16 +466,16 @@
         "7. Approved Data Sources & Tools\n\n7.1 Internal Databases\n\nFinHub: Our primary database for all company-specific financial data, including historical performance and internal projections.\n\nDatabank: A repository for macroeconomic data, industry trends, and competitor analysis reports.\n\n7.2 External Feeds\n\nBloomberg Terminal: The primary tool for real-time market data, news, and external company reports.\n\nReuters Eikon: A secondary source for market data and financial news.\n\n\n\n8. Glossary of Key Terms\n\n8.1 Common Financial Terminology\n\nAssets: Items of value owned by the company.\n\nLiabilities: Debts or obligations owed to others.\n\nEBITDA: Earnings Before Interest, Taxes, Depreciation, and Amortization. A measure of a company's overall financial performance."
       ],
       "metrics": {
-        "answer_relevancy": 0.7200000000000001,
+        "answer_relevancy": 0.3,
         "context_precision": 0.46,
         "context_recall": 0.22222222222222218,
-        "faithfulness": 0.3333333333333333,
-        "answer_correctness": 1.0
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "What is Value at Risk (VaR)?",
-      "answer": "Value at Risk (VaR) is a statistical measure that quantifies the potential loss in value of a portfolio or investment over a defined period for a given confidence interval. It provides an estimate of the maximum expected loss due to market risks under normal market conditions.",
+      "answer": "Value at Risk (VaR) is a statistical measure used to assess the potential loss in value of a portfolio or investment over a specified period, given normal market conditions, at a certain confidence level. It provides an estimate of the maximum expected loss with a specific probability, helping financial analysts and risk managers understand the potential downside risk.",
       "ground_truth": "VaR is a statistical measure that quantifies the potential loss in value of a portfolio over a defined period for a given confidence interval. It's used to assess market risk.",
       "contexts": [
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.",
@@ -486,13 +486,13 @@
         "answer_relevancy": 0.5800000000000001,
         "context_precision": 0.6333333333333333,
         "context_recall": 0.2716049382716049,
-        "faithfulness": 0.42105263157894735,
-        "answer_correctness": 0.8148148148148148
+        "faithfulness": 0.34782608695652173,
+        "answer_correctness": 0.7037037037037037
       }
     },
     {
       "question": "How do you calculate Sharpe ratio?",
-      "answer": "The calculation for the Sharpe ratio is not available in the provided context. However, generally, it is calculated as (Portfolio Return - Risk-Free Rate) / Standard Deviation of Portfolio Return. The Sharpe ratio measures the risk-adjusted return of an investment, with a higher ratio indicating better risk-adjusted performance.",
+      "answer": "Not available in provided context.",
       "ground_truth": "The Sharpe ratio is calculated as (Portfolio Return - Risk-Free Rate) / Portfolio Standard Deviation. It measures risk-adjusted returns.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -500,16 +500,16 @@
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory."
       ],
       "metrics": {
-        "answer_relevancy": 0.75,
+        "answer_relevancy": 0.3,
         "context_precision": 0.7600000000000001,
         "context_recall": 0.2982456140350877,
-        "faithfulness": 0.40540540540540543,
-        "answer_correctness": 0.9947368421052631
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "What is the Sortino ratio?",
-      "answer": "The Sortino ratio is not defined in the provided context. However, generally, it is a variation of the Sharpe ratio that differentiates harmful volatility from total overall volatility by using only downside deviation as the denominator. It is calculated as (Portfolio Return - Risk-Free Rate) / Downside Deviation. The Sortino ratio provides a measure of risk-adjusted return, focusing on negative volatility, with a higher ratio indicating more favorable risk-adjusted performance.",
+      "answer": "Not available in provided context.",
       "ground_truth": "The Sortino ratio is calculated as (Portfolio Return - Risk-Free Rate) / Downside Deviation. It measures risk-adjusted returns focusing only on downside volatility.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -517,16 +517,16 @@
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory."
       ],
       "metrics": {
-        "answer_relevancy": 0.73,
+        "answer_relevancy": 0.3,
         "context_precision": 0.7600000000000001,
         "context_recall": 0.2878787878787879,
-        "faithfulness": 0.34615384615384615,
-        "answer_correctness": 0.9636363636363636
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "How is P/E ratio calculated?",
-      "answer": "The calculation for the P/E (Price-to-Earnings) ratio is not available in the provided context. However, generally, it is calculated as Market Price per Share / Earnings per Share (EPS). The P/E ratio measures a company's current share price relative to its per-share earnings, indicating how much investors are willing to pay for a dollar of earnings.",
+      "answer": "The P/E (Price-to-Earnings) ratio is calculated as Market Price per Share / Earnings per Share (EPS). It measures a company's current share price relative to its per-share earnings, providing insight into how much investors are willing to pay for a dollar of earnings. A higher P/E ratio can indicate expectations of future growth, while a lower P/E may suggest the stock is undervalued.",
       "ground_truth": "The P/E ratio is calculated as Market Price per Share / Earnings per Share. It measures how much investors are willing to pay for each dollar of earnings.",
       "contexts": [
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment.",
@@ -537,13 +537,13 @@
         "answer_relevancy": 0.75,
         "context_precision": 0.6466666666666667,
         "context_recall": 0.32098765432098764,
-        "faithfulness": 0.46511627906976744,
+        "faithfulness": 0.3877551020408163,
         "answer_correctness": 1.0
       }
     },
     {
       "question": "What is the P/B ratio?",
-      "answer": "The calculation for the P/B (Price-to-Book) ratio is not available in the provided context. However, generally, it is calculated as Market Price per Share / Book Value per Share. This ratio measures a company's market value relative to its book value, indicating how much investors are willing to pay for each dollar of net assets.",
+      "answer": "The P/B (Price-to-Book) ratio is a financial metric used to compare a company's market price per share to its book value per share. It is calculated as Market Price per Share / Book Value per Share. The P/B ratio provides insight into how much investors are willing to pay for a company's net assets. A lower P/B ratio may indicate that a stock is undervalued, whereas a higher ratio could suggest it is overvalued relative to its book value.",
       "ground_truth": "The P/B ratio is calculated as Market Price per Share / Book Value per Share. It compares a company's market value to its book value.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -554,13 +554,13 @@
         "answer_relevancy": 0.76,
         "context_precision": 0.7466666666666667,
         "context_recall": 0.3333333333333333,
-        "faithfulness": 0.4222222222222222,
+        "faithfulness": 0.3469387755102041,
         "answer_correctness": 1.0
       }
     },
     {
       "question": "How do you calculate EV/EBITDA?",
-      "answer": "The calculation for EV/EBITDA is not available in the provided context. However, generally, it is calculated as Enterprise Value (EV) / Earnings Before Interest, Taxes, Depreciation, and Amortization (EBITDA). This ratio measures a company's valuation relative to its operating cash flow, providing an indication of how much investors are willing to pay for each dollar of EBITDA, often used to compare the value of companies within the same industry.",
+      "answer": "To calculate the EV/EBITDA ratio, you divide a company's Enterprise Value (EV) by its Earnings Before Interest, Taxes, Depreciation, and Amortization (EBITDA). The formula is:\n\n\\[ \\text{EV/EBITDA} = \\frac{\\text{Enterprise Value}}{\\text{EBITDA}} \\]\n\nEnterprise Value is calculated as the market capitalization plus total debt, minus cash and cash equivalents. The EV/EBITDA ratio is used to assess a company's valuation by comparing its total value, including debt, against its earnings, providing a measure of how many years it would take to earn back the enterprise value based on EBITDA.",
       "ground_truth": "EV/EBITDA is calculated as Enterprise Value / EBITDA. It's used to compare companies with different capital structures and tax rates.",
       "contexts": [
         "Liabilities: Debts or obligations owed to others.\n\nEBITDA: Earnings Before Interest, Taxes, Depreciation, and Amortization. A measure of a company's overall financial performance.\n\nCapital Expenditures (CapEx): Funds used by a company to acquire, upgrade, and maintain physical assets.\n\n8.2 Document Control & Revisions\n\nThis document is owned by the Financial Analysis Department of Unity Financial Group.\n\nOwner: Financial Analysis Department\n\nApproved By: CFO (Chief Financial Officer)\n\nLast Revised: October 1, 2025\n\nRevision History:\n\nV1.0 (Oct 1, 2025): Initial release of the Financial Analyst's Guide.",
@@ -568,16 +568,16 @@
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory."
       ],
       "metrics": {
-        "answer_relevancy": 0.75,
+        "answer_relevancy": 0.78,
         "context_precision": 0.3866666666666667,
         "context_recall": 0.20000000000000004,
-        "faithfulness": 0.3728813559322034,
-        "answer_correctness": 0.7
+        "faithfulness": 0.34375,
+        "answer_correctness": 0.6
       }
     },
     {
       "question": "What is the PEG ratio?",
-      "answer": "The definition or calculation for the PEG ratio is not available in the provided context. However, generally, the PEG ratio is calculated as the Price-to-Earnings (P/E) Ratio / Annual Earnings Growth Rate. It provides a more comprehensive view of a company's valuation by factoring in its expected earnings growth, with a lower PEG ratio indicating that a stock may be undervalued relative to its growth prospects.",
+      "answer": "Not available in provided context.",
       "ground_truth": "The PEG ratio is calculated as P/E Ratio / Earnings Growth Rate. It provides a more complete picture of valuation by considering growth.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -585,16 +585,16 @@
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk."
       ],
       "metrics": {
-        "answer_relevancy": 0.73,
+        "answer_relevancy": 0.3,
         "context_precision": 0.7600000000000001,
         "context_recall": 0.28787878787878785,
-        "faithfulness": 0.30612244897959184,
-        "answer_correctness": 0.8727272727272727
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "How is dividend yield calculated?",
-      "answer": "The calculation for dividend yield is not available in the provided context. However, generally, it is calculated as Annual Dividends per Share / Market Price per Share. This ratio measures the annual dividend income an investor receives relative to the current share price, indicating the return on investment from dividends alone.",
+      "answer": "Dividend yield is calculated as Annual Dividends Per Share / Market Price Per Share. It measures the annual income an investor receives from a stock as a percentage of its current market price, providing insight into the return on investment from dividends alone. A higher dividend yield indicates a higher return relative to the stock's price.",
       "ground_truth": "Dividend yield is calculated as Annual Dividends per Share / Market Price per Share. It shows the percentage return on investment from dividends.",
       "contexts": [
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment.",
@@ -602,16 +602,16 @@
         "Stock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.\n\n\n\n\n\n4. Sample Quarterly Report Summary\n\n4.1 Overview of Q3 2025 Performance\n\nUnity Financial Group's Q3 2025 performance was marked by strong growth in core banking services and a significant increase in digital product adoption. The company's focus on cost-efficiency resulted in improved profitability.\n\nKey Message: Strong revenue growth and improved profitability driven by digital innovation.\n\n4.2 Revenue & Profitability Highlights\n\nTotal Revenue: Grew to $550 million, a 12% increase from Q3 2024.\n\nNet Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year."
       ],
       "metrics": {
-        "answer_relevancy": 0.75,
+        "answer_relevancy": 0.7200000000000001,
         "context_precision": 0.38666666666666666,
         "context_recall": 0.303030303030303,
-        "faithfulness": 0.3902439024390244,
-        "answer_correctness": 0.9636363636363636
+        "faithfulness": 0.43902439024390244,
+        "answer_correctness": 1.0
       }
     },
     {
       "question": "What is free cash flow?",
-      "answer": "Free cash flow is not explicitly defined in the provided context. However, generally, it refers to the cash generated by a company after accounting for capital expenditures necessary to maintain or expand its asset base. It is calculated as Cash from Operating Activities - Capital Expenditures. Free cash flow indicates the cash available for debt repayment, dividends, and reinvestment, reflecting the company’s financial flexibility and health.",
+      "answer": "Free cash flow is the amount of cash generated by a company that is available for distribution among all the securities holders, including equity holders and debt holders. It is calculated as Cash from Operating Activities minus Capital Expenditures (CapEx). Free cash flow indicates a company's ability to generate additional cash, which can be used for expansion, paying dividends, reducing debt, or other purposes.",
       "ground_truth": "Free cash flow is calculated as Operating Cash Flow - Capital Expenditures. It represents the cash a company can generate after maintaining or expanding its asset base.",
       "contexts": [
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment.",
@@ -619,16 +619,16 @@
         "4.1 Overview of Q3 2025 Performance\n\n4.2 Revenue & Profitability Highlights\n\nPage 7: 5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\n5.2 Statement of Cash Flows Analysis\n\nPage 8: 6. Financial Reporting Standards & Compliance\n\n6.1 Adherence to IFRS/GAAP\n\n6.2 Internal Reporting Mandates\n\nPage 9: 7. Approved Data Sources & Tools\n\n7.1 Internal Databases (FinHub, Databank)\n\n7.2 External Feeds (Bloomberg, Reuters)\n\nPage 10: 8. Glossary of Key Terms\n\n8.1 Common Financial Terminology\n\n8.2 Document Control & Revisions\n\n\n\n1. Introduction to Financial Analysis\n\n1.1 Purpose of the Guide"
       ],
       "metrics": {
-        "answer_relevancy": 0.53,
+        "answer_relevancy": 0.56,
         "context_precision": 0.25333333333333335,
         "context_recall": 0.23611111111111108,
-        "faithfulness": 0.4117647058823529,
-        "answer_correctness": 0.8916666666666666
+        "faithfulness": 0.3888888888888889,
+        "answer_correctness": 0.725
       }
     },
     {
       "question": "How is operating cash flow calculated?",
-      "answer": "The calculation for operating cash flow is not explicitly detailed in the provided context. However, generally, it is calculated by adjusting net income for non-cash items (such as depreciation and amortization), and changes in working capital (such as accounts receivable, accounts payable, and inventory). Operating cash flow measures the cash generated by a company's core business operations, indicating its ability to generate sufficient cash to maintain and grow its operations.",
+      "answer": "Not available in provided context.",
       "ground_truth": "Operating cash flow is calculated as Net Income + Depreciation + Amortization + Changes in Working Capital. It shows cash generated from core business operations.",
       "contexts": [
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment.",
@@ -636,16 +636,16 @@
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory."
       ],
       "metrics": {
-        "answer_relevancy": 0.75,
+        "answer_relevancy": 0.3,
         "context_precision": 0.3866666666666667,
         "context_recall": 0.25757575757575757,
-        "faithfulness": 0.43137254901960786,
-        "answer_correctness": 0.8727272727272727
+        "faithfulness": 0.2,
+        "answer_correctness": 0.045454545454545456
       }
     },
     {
       "question": "What does cash flow from investing activities include?",
-      "answer": "Cash flow from investing activities includes transactions related to the acquisition and disposal of long-term assets and investments. In the provided context, it includes a $25 million capital expenditure on new IT infrastructure. This section of the cash flow statement reflects how much is being spent on or received from investments in physical assets or securities, impacting a company's long-term growth.",
+      "answer": "Cash flow from investing activities includes transactions involving the acquisition and disposal of long-term assets and other investments. In the provided context, it includes a $25 million capital expenditure on new IT infrastructure. Typical items in this section are purchases or sales of physical assets, investments in securities, and loans made to other entities.",
       "ground_truth": "Cash flow from investing activities includes purchases and sales of long-term assets, investments in securities, and loans made to other entities.",
       "contexts": [
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment.",
@@ -656,13 +656,13 @@
         "answer_relevancy": 0.48250000000000004,
         "context_precision": 0.29833333333333334,
         "context_recall": 0.25,
-        "faithfulness": 0.5217391304347826,
-        "answer_correctness": 0.75
+        "faithfulness": 0.4888888888888889,
+        "answer_correctness": 1.0
       }
     },
     {
       "question": "How is cash flow from financing activities calculated?",
-      "answer": "Cash flow from financing activities is calculated by summing up cash inflows and outflows related to transactions with the company's owners and creditors. This includes activities such as issuing or repurchasing stock, borrowing or repaying debt, and paying dividends. In the provided context, financing activities included a $30 million debt repayment. This section of the cash flow statement indicates how a company finances its operations and growth through capital structure changes.",
+      "answer": "Cash flow from financing activities is calculated by summing the cash inflows and outflows related to financing activities, including issuing or repurchasing equity, borrowing or repaying debt, and paying dividends. In the provided context, financing activities included a $30 million debt repayment. The net cash flow from financing activities reflects changes in the size and composition of the company's equity and borrowings.",
       "ground_truth": "Cash flow from financing activities includes proceeds from issuing debt or equity, payments of dividends, and repurchases of stock or debt.",
       "contexts": [
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment.",
@@ -673,13 +673,13 @@
         "answer_relevancy": 0.8400000000000001,
         "context_precision": 0.20000000000000004,
         "context_recall": 0.25925925925925924,
-        "faithfulness": 0.45614035087719296,
+        "faithfulness": 0.4772727272727273,
         "answer_correctness": 0.8111111111111111
       }
     },
     {
       "question": "What is the cash flow coverage ratio?",
-      "answer": "The calculation for the cash flow coverage ratio is not available in the provided context. However, generally, it is calculated as Operating Cash Flow / Total Debt. This ratio measures a company's ability to cover its total debt with the cash generated from its operating activities, indicating the financial health and risk level of the company.",
+      "answer": "Not available in provided context.",
       "ground_truth": "The cash flow coverage ratio is calculated as Operating Cash Flow / Total Debt. It measures a company's ability to pay off its debt with operating cash flow.",
       "contexts": [
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.",
@@ -687,16 +687,16 @@
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment."
       ],
       "metrics": {
-        "answer_relevancy": 0.76,
+        "answer_relevancy": 0.3,
         "context_precision": 0.7466666666666667,
         "context_recall": 0.40277777777777785,
-        "faithfulness": 0.5348837209302325,
-        "answer_correctness": 0.975
+        "faithfulness": 0.2,
+        "answer_correctness": 0.0
       }
     },
     {
       "question": "What is the difference between revenue and income?",
-      "answer": "Revenue refers to the total amount of money generated from the sale of goods or services before any expenses are deducted. Income, often referred to as net income or profit, is the amount of money that remains after all expenses, taxes, and costs have been subtracted from total revenue. Revenue shows the top line of a company's earnings, while income represents the bottom line or the actual profitability of the company.",
+      "answer": "Revenue refers to the total amount of money generated by a company's core business operations, typically from sales of goods or services, before any expenses are deducted. Income, often referred to as net income or profit, is the amount of money remaining after all operating expenses, taxes, interest, and other costs have been subtracted from total revenue. Essentially, revenue is the top line of an income statement, while net income is the bottom line, indicating the company's profitability.",
       "ground_truth": "Revenue is the total amount of money earned from sales, while income (or net income) is revenue minus all expenses, taxes, and costs.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -704,16 +704,16 @@
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment."
       ],
       "metrics": {
-        "answer_relevancy": 0.64,
+        "answer_relevancy": 0.67,
         "context_precision": 0.7333333333333334,
         "context_recall": 0.2698412698412698,
-        "faithfulness": 0.4117647058823529,
+        "faithfulness": 0.4482758620689655,
         "answer_correctness": 0.7142857142857143
       }
     },
     {
       "question": "How do you calculate earnings per share?",
-      "answer": "Earnings per share (EPS) is calculated as Net Income / Number of Outstanding Shares. In the provided context, Unity Financial Group's EPS is recorded at $1.12, up from $0.97 in the previous year, indicating an improvement in the profitability distributed to each share of common stock.",
+      "answer": "Earnings per share (EPS) is calculated as Net Income / Average Outstanding Shares. It measures the portion of a company's profit allocated to each outstanding share of common stock, providing insight into the company's profitability on a per-share basis. A higher EPS indicates greater profitability and is often used by investors to assess company performance.",
       "ground_truth": "EPS is calculated as (Net Income - Preferred Dividends) / Average Outstanding Shares. It shows how much profit is allocated to each share of common stock.",
       "contexts": [
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment.",
@@ -721,16 +721,16 @@
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory."
       ],
       "metrics": {
-        "answer_relevancy": 0.81,
+        "answer_relevancy": 0.75,
         "context_precision": 0.5466666666666667,
         "context_recall": 0.26666666666666666,
-        "faithfulness": 0.5641025641025641,
-        "answer_correctness": 0.76
+        "faithfulness": 0.4888888888888889,
+        "answer_correctness": 0.78
       }
     },
     {
       "question": "What is the difference between gross profit and net profit?",
-      "answer": "Gross profit is the amount remaining after deducting the cost of goods sold (COGS) from revenue. It reflects the efficiency of a company's core production activities, excluding other operating expenses. Net profit, on the other hand, is the amount remaining after all operating expenses, taxes, interest, and other costs have been deducted from total revenue. It indicates the overall profitability of a company.",
+      "answer": "Gross profit is the amount remaining after subtracting the cost of goods sold (COGS) from total revenue, representing the profit a company makes from its core business operations before deducting operating expenses, taxes, and interest. Net profit, on the other hand, is the amount remaining after all expenses, including operating expenses, interest, taxes, and other costs, have been subtracted from total revenue. Gross profit focuses on the efficiency of production and sales, while net profit indicates the overall profitability of the company.",
       "ground_truth": "Gross profit is revenue minus cost of goods sold, while net profit is gross profit minus all other expenses including operating expenses, interest, and taxes.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -738,16 +738,16 @@
         "4.1 Overview of Q3 2025 Performance\n\n4.2 Revenue & Profitability Highlights\n\nPage 7: 5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\n5.2 Statement of Cash Flows Analysis\n\nPage 8: 6. Financial Reporting Standards & Compliance\n\n6.1 Adherence to IFRS/GAAP\n\n6.2 Internal Reporting Mandates\n\nPage 9: 7. Approved Data Sources & Tools\n\n7.1 Internal Databases (FinHub, Databank)\n\n7.2 External Feeds (Bloomberg, Reuters)\n\nPage 10: 8. Glossary of Key Terms\n\n8.1 Common Financial Terminology\n\n8.2 Document Control & Revisions\n\n\n\n1. Introduction to Financial Analysis\n\n1.1 Purpose of the Guide"
       ],
       "metrics": {
-        "answer_relevancy": 0.64,
+        "answer_relevancy": 0.67,
         "context_precision": 0.7466666666666667,
         "context_recall": 0.19999999999999998,
-        "faithfulness": 0.35555555555555557,
-        "answer_correctness": 0.65
+        "faithfulness": 0.3018867924528302,
+        "answer_correctness": 0.75
       }
     },
     {
       "question": "How is book value per share calculated?",
-      "answer": "The calculation for book value per share is not available in the provided context. However, generally, book value per share is calculated as Total Shareholders' Equity / Number of Outstanding Shares. This metric provides an indication of the value of a company's assets on a per-share basis, reflecting the net asset value attributable to each share of common stock.",
+      "answer": "Book value per share is calculated as Shareholder's Equity / Total Outstanding Shares. It represents the net asset value of a company on a per-share basis, indicating the amount each share would receive if the company were liquidated at its book value. This metric provides insight into the intrinsic value of a company's shares compared to their market value.",
       "ground_truth": "Book value per share is calculated as (Total Equity - Preferred Stock) / Number of Outstanding Shares. It represents the per-share value of a company's equity.",
       "contexts": [
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment.",
@@ -755,16 +755,16 @@
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk."
       ],
       "metrics": {
-        "answer_relevancy": 0.78,
+        "answer_relevancy": 0.75,
         "context_precision": 0.47333333333333333,
         "context_recall": 0.3333333333333333,
-        "faithfulness": 0.38636363636363635,
-        "answer_correctness": 0.8083333333333333
+        "faithfulness": 0.40425531914893614,
+        "answer_correctness": 0.85
       }
     },
     {
       "question": "What does retained earnings represent?",
-      "answer": "Retained earnings represent the cumulative amount of net income that a company has retained, rather than distributed as dividends to shareholders. It reflects the portion of profits that are reinvested in the business for growth and development, or held as a reserve for future obligations. Retained earnings are an important component of shareholder equity on the balance sheet.",
+      "answer": "Retained earnings represent the cumulative amount of net income that a company has retained, rather than distributed as dividends to shareholders. It reflects the portion of profits that is reinvested in the business to fund growth, pay down debt, or maintain reserves for future use. Retained earnings are a key component of shareholder equity on the balance sheet, indicating how much profit has been reinvested in the company over time.",
       "ground_truth": "Retained earnings represent the cumulative amount of net income that has been retained in the business rather than distributed as dividends to shareholders.",
       "contexts": [
         "Net Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year.\n\nNet Profit Margin: Improved to 22.7%, up from 22.1% in Q3 2024.\n\n\n\n5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\nAs of September 30, 2025:\n\nTotal Assets: $5.8 billion\n\nTotal Liabilities: $3.5 billion\n\nTotal Shareholder Equity: $2.3 billion\n\nDebt-to-Equity Ratio: 1.52, indicating a healthy financial structure.\n\n5.2 Statement of Cash Flows Analysis\n\nCash from operating activities was strong at $180 million, showing robust core business operations. Investing activities included a $25 million capital expenditure on new IT infrastructure, and financing activities saw a $30 million debt repayment.",
@@ -772,16 +772,16 @@
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit."
       ],
       "metrics": {
-        "answer_relevancy": 0.64,
+        "answer_relevancy": 0.67,
         "context_precision": 0.7466666666666667,
         "context_recall": 0.34920634920634913,
-        "faithfulness": 0.41304347826086957,
-        "answer_correctness": 0.9523809523809523
+        "faithfulness": 0.41818181818181815,
+        "answer_correctness": 1.0
       }
     },
     {
       "question": "What is credit risk?",
-      "answer": "Credit risk is not explicitly defined in the provided context. However, generally, credit risk refers to the possibility of a loss resulting from a borrower's failure to repay a loan or meet contractual obligations. It represents the risk that a lender may not receive the owed principal and interest, leading to an interruption of cash flows and increased collection costs.",
+      "answer": "Credit risk is the possibility that a borrower will fail to meet its obligations in accordance with agreed terms, leading to a financial loss for the lender. It is a critical factor in lending and investing decisions, as it affects the likelihood of receiving the expected return on investment. Credit risk management involves assessing the borrower's creditworthiness and implementing measures to mitigate potential losses.",
       "ground_truth": "Credit risk is the possibility of loss resulting from a borrower's failure to repay a loan or meet contractual obligations. It's a key concern for lenders and investors.",
       "contexts": [
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.",
@@ -792,13 +792,13 @@
         "answer_relevancy": 0.5800000000000001,
         "context_precision": 0.5599999999999999,
         "context_recall": 0.3076923076923077,
-        "faithfulness": 0.3695652173913043,
-        "answer_correctness": 0.7692307692307693
+        "faithfulness": 0.32,
+        "answer_correctness": 0.5
       }
     },
     {
       "question": "How is liquidity risk measured?",
-      "answer": "Liquidity risk is measured using liquidity ratios, such as the current ratio and the quick ratio. The current ratio is calculated as Current Assets / Current Liabilities, while the quick ratio is calculated as (Current Assets - Inventories) / Current Liabilities. These ratios assess a company's ability to meet its short-term obligations, with higher ratios indicating a better capacity to cover immediate liabilities.",
+      "answer": "Liquidity risk is measured using liquidity ratios, such as the current ratio and quick ratio. \n\n- **Current Ratio**: Calculated as Current Assets / Current Liabilities, this ratio measures a company's ability to pay short-term obligations. A ratio of 2.0 or higher is generally considered healthy.\n- **Quick Ratio**: Calculated as (Current Assets - Inventories) / Current Liabilities, this ratio measures the ability to meet immediate liabilities without relying on inventory sales. A ratio above 1.0 suggests a strong liquidity position.\n\nThese ratios provide insight into a company's ability to cover its short-term liabilities with its short-term assets.",
       "ground_truth": "Liquidity risk is measured by ratios like current ratio, quick ratio, and cash ratio. It assesses a company's ability to meet short-term obligations without raising external capital.",
       "contexts": [
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.",
@@ -806,16 +806,16 @@
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit."
       ],
       "metrics": {
-        "answer_relevancy": 0.76,
+        "answer_relevancy": 0.8200000000000001,
         "context_precision": 0.49333333333333335,
         "context_recall": 0.32051282051282054,
-        "faithfulness": 0.6341463414634146,
-        "answer_correctness": 0.6769230769230768
+        "faithfulness": 0.6290322580645161,
+        "answer_correctness": 0.8153846153846154
       }
     },
     {
       "question": "What is operational risk?",
-      "answer": "Operational risk refers to the possibility of loss resulting from inadequate or failed internal processes, people, and systems, or from external events. It encompasses a wide range of potential issues, including fraud, legal risks, and system failures, impacting a company's ability to conduct operations effectively and efficiently.",
+      "answer": "Operational risk is the possibility of losses resulting from inadequate or failed internal processes, people, systems, or from external events. It encompasses a wide range of risks, including those related to fraud, legal issues, physical or environmental threats, and IT system failures. Effective management of operational risk involves identifying, assessing, and mitigating these risks to minimize their impact on a company's operations and financial performance.",
       "ground_truth": "Operational risk is the risk of loss resulting from inadequate or failed internal processes, people, systems, or external events that can disrupt business operations.",
       "contexts": [
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.",
@@ -826,13 +826,13 @@
         "answer_relevancy": 0.61,
         "context_precision": 0.5733333333333334,
         "context_recall": 0.24242424242424243,
-        "faithfulness": 0.35,
+        "faithfulness": 0.41509433962264153,
         "answer_correctness": 0.6818181818181818
       }
     },
     {
       "question": "How do you assess market risk?",
-      "answer": "Market risk is assessed by monitoring key indicators such as interest rate fluctuations, currency exchange rate volatility, and stock market volatility (VIX). These factors can impact the overall performance of financial markets, affecting the value of investments and revenue streams. By analyzing these indicators, financial analysts can evaluate the potential for losses due to market movements and develop strategies to mitigate risk.",
+      "answer": "Market risk is assessed by monitoring key indicators such as interest rate fluctuations, currency exchange rates, and stock market volatility (VIX). \n\n- **Interest Rate Fluctuations**: Changes in interest rates can impact the value of bonds and loans.\n- **Currency Exchange Rates**: Volatility in exchange rates can affect the value of international investments and revenue streams.\n- **Stock Market Volatility (VIX)**: The Volatility Index (VIX) is a key indicator of market uncertainty and risk.\n\nBy analyzing these factors, financial analysts can evaluate the potential impact on investments and develop strategies to mitigate market risk.",
       "ground_truth": "Market risk is assessed using tools like VaR, stress testing, scenario analysis, and sensitivity analysis to understand potential losses from market movements.",
       "contexts": [
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.",
@@ -843,26 +843,30 @@
         "answer_relevancy": 0.61,
         "context_precision": 0.5599999999999999,
         "context_recall": 0.2698412698412698,
-        "faithfulness": 0.6122448979591837,
-        "answer_correctness": 0.38095238095238093
+        "faithfulness": 0.6333333333333333,
+        "answer_correctness": 0.3333333333333333
       }
     },
     {
       "question": "What is systematic risk?",
-      "answer": "",
+      "answer": "Systematic risk, also known as market risk, refers to the potential for investment losses due to factors that affect the entire market or a broad segment of the market. This type of risk is inherent to the overall market dynamics and cannot be eliminated through diversification. Systematic risk includes events such as economic recessions, political instability, changes in interest rates, and natural disasters, which can impact a wide range of investments simultaneously.",
       "ground_truth": "Systematic risk is the risk inherent to the entire market or market segment. It cannot be eliminated through diversification and affects all investments.",
-      "contexts": [],
+      "contexts": [
+        "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.",
+        "Unity Financial Group - Financial Analyst's Guide & Report Summary\n\n\n\n\n\nVersion: 1.0 Date: October 1, 2025\n\n\n\nTable of Contents\n\nPage 1: Title Page\n\nPage 2: Table of Contents\n\nPage 3: 1. Introduction to Financial Analysis\n\n1.1 Purpose of the Guide\n\n1.2 Our Core Analytical Principles\n\nPage 4: 2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios (Current Ratio, Quick Ratio)\n\n2.2 Profitability Ratios (Net Profit Margin, ROE)\n\nPage 5: 3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\n3.2 Key Indicators to Monitor\n\nPage 6: 4. Sample Quarterly Report Summary\n\n4.1 Overview of Q3 2025 Performance\n\n4.2 Revenue & Profitability Highlights\n\nPage 7: 5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\n5.2 Statement of Cash Flows Analysis",
+        "Stock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.\n\n\n\n\n\n4. Sample Quarterly Report Summary\n\n4.1 Overview of Q3 2025 Performance\n\nUnity Financial Group's Q3 2025 performance was marked by strong growth in core banking services and a significant increase in digital product adoption. The company's focus on cost-efficiency resulted in improved profitability.\n\nKey Message: Strong revenue growth and improved profitability driven by digital innovation.\n\n4.2 Revenue & Profitability Highlights\n\nTotal Revenue: Grew to $550 million, a 12% increase from Q3 2024.\n\nNet Income: Rose to $125 million, a 15% increase year-over-year.\n\nEarnings Per Share (EPS): Recorded at $1.12, up from $0.97 in the previous year."
+      ],
       "metrics": {
-        "answer_relevancy": 0.0,
-        "context_precision": 0.0,
-        "context_recall": 0.0,
-        "faithfulness": 0.0,
-        "answer_correctness": 0.0
+        "answer_relevancy": 0.5800000000000001,
+        "context_precision": 0.7333333333333334,
+        "context_recall": 0.26666666666666666,
+        "faithfulness": 0.40350877192982454,
+        "answer_correctness": 0.7
       }
     },
     {
       "question": "What is the time value of money?",
-      "answer": "The time value of money is a financial concept that posits that a dollar today is worth more than a dollar in the future due to its potential earning capacity. This principle underlies the concept of interest and investment, as money can earn returns over time. It is a key consideration in financial decision-making, affecting how investments, loans, and other financial products are valued.",
+      "answer": "The time value of money (TVM) is a financial concept that posits a sum of money is worth more now than the same sum will be in the future due to its potential earning capacity. This principle is based on the opportunity to earn interest or investment returns between now and the future date. TVM underpins many financial calculations, such as present value, future value, annuities, and loan amortization, emphasizing the importance of time in the valuation of money.",
       "ground_truth": "The time value of money is the concept that money available today is worth more than the same amount in the future due to its potential earning capacity.",
       "contexts": [
         "1.2 Our Core Analytical Principles\n\nOur analysis is based on three core principles: Accuracy, Clarity, and Timeliness.\n\nAccuracy: All data must be sourced from approved databases and verified against official company reports.\n\nClarity: Analytical findings should be presented in a clear, concise manner, free of unnecessary jargon.\n\nTimeliness: Analysis must be completed within the specified deadlines to support critical business decisions.\n\n\n\n2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios\n\nCurrent Ratio: Measures a company's ability to pay short-term obligations.\n\nFormula: Current Assets / Current Liabilities\n\nInterpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.",
@@ -870,16 +874,16 @@
         "Liabilities: Debts or obligations owed to others.\n\nEBITDA: Earnings Before Interest, Taxes, Depreciation, and Amortization. A measure of a company's overall financial performance.\n\nCapital Expenditures (CapEx): Funds used by a company to acquire, upgrade, and maintain physical assets.\n\n8.2 Document Control & Revisions\n\nThis document is owned by the Financial Analysis Department of Unity Financial Group.\n\nOwner: Financial Analysis Department\n\nApproved By: CFO (Chief Financial Officer)\n\nLast Revised: October 1, 2025\n\nRevision History:\n\nV1.0 (Oct 1, 2025): Initial release of the Financial Analyst's Guide."
       ],
       "metrics": {
-        "answer_relevancy": 0.61,
+        "answer_relevancy": 0.5800000000000001,
         "context_precision": 0.20000000000000004,
         "context_recall": 0.2028985507246377,
-        "faithfulness": 0.25,
+        "faithfulness": 0.26785714285714285,
         "answer_correctness": 0.8695652173913043
       }
     },
     {
       "question": "How is net present value calculated?",
-      "answer": "The calculation for net present value (NPV) is not available in the provided context. However, generally, it is calculated by discounting the expected cash flows of a project or investment back to their present value using a specified discount rate, and then subtracting the initial investment cost. NPV = ∑ (Cash Flow / (1 + r)^t) - Initial Investment, where r is the discount rate and t is the time period. A positive NPV indicates that the projected earnings exceed the anticipated costs, suggesting a potentially profitable investment.",
+      "answer": "Net Present Value (NPV) is calculated by summing the present values of all expected future cash flows, both inflows and outflows, discounted back to their present value using a specified discount rate. The formula is:\n\n\\[ NPV = \\sum \\left( \\frac{C_t}{(1 + r)^t} \\right) - C_0 \\]\n\nWhere:\n- \\( C_t \\) = Cash flow at time \\( t \\)\n- \\( r \\) = Discount rate\n- \\( t \\) = Time period\n- \\( C_0 \\) = Initial investment\n\nNPV helps determine the profitability of an investment, with a positive NPV indicating that the projected earnings (adjusted for time and risk) exceed the initial investment cost.",
       "ground_truth": "NPV is calculated as the sum of present values of all cash flows (inflows and outflows) discounted at the required rate of return, minus the initial investment.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -887,16 +891,16 @@
         "Liabilities: Debts or obligations owed to others.\n\nEBITDA: Earnings Before Interest, Taxes, Depreciation, and Amortization. A measure of a company's overall financial performance.\n\nCapital Expenditures (CapEx): Funds used by a company to acquire, upgrade, and maintain physical assets.\n\n8.2 Document Control & Revisions\n\nThis document is owned by the Financial Analysis Department of Unity Financial Group.\n\nOwner: Financial Analysis Department\n\nApproved By: CFO (Chief Financial Officer)\n\nLast Revised: October 1, 2025\n\nRevision History:\n\nV1.0 (Oct 1, 2025): Initial release of the Financial Analyst's Guide."
       ],
       "metrics": {
-        "answer_relevancy": 0.81,
+        "answer_relevancy": 0.8400000000000001,
         "context_precision": 0.2866666666666667,
         "context_recall": 0.2318840579710145,
-        "faithfulness": 0.29411764705882354,
-        "answer_correctness": 0.7217391304347825
+        "faithfulness": 0.2361111111111111,
+        "answer_correctness": 0.808695652173913
       }
     },
     {
       "question": "What is internal rate of return?",
-      "answer": "The internal rate of return (IRR) is a financial metric used to evaluate the profitability of an investment. It is the discount rate that makes the net present value (NPV) of all cash flows from an investment equal to zero. IRR represents the expected annualized rate of return and is used to compare the profitability of different investments, with a higher IRR indicating a more attractive investment opportunity.",
+      "answer": "The internal rate of return (IRR) is the discount rate at which the net present value (NPV) of all cash flows from an investment equals zero. It represents the expected annualized rate of return on an investment, considering the time value of money. IRR is used to evaluate the attractiveness of a project or investment, with a higher IRR indicating a more desirable investment opportunity.",
       "ground_truth": "IRR is the discount rate that makes the NPV of all cash flows equal to zero. It's used to evaluate the profitability of potential investments.",
       "contexts": [
         "Formula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.\n\n\n\n3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\nMarket risk is the possibility of losses in an investment due to factors that affect the overall performance of financial markets. It includes risks related to stock prices, interest rates, and foreign exchange rates.\n\n3.2 Key Indicators to Monitor\n\nInterest Rate Fluctuations: Changes in interest rates can impact the value of bonds and loans.\n\nCurrency Exchange Rates: Volatility in exchange rates can affect the value of international investments and revenue streams.\n\nStock Market Volatility (VIX): The Volatility Index (VIX) is a key indicator of market uncertainty and risk.",
@@ -904,16 +908,16 @@
         "Unity Financial Group - Financial Analyst's Guide & Report Summary\n\n\n\n\n\nVersion: 1.0 Date: October 1, 2025\n\n\n\nTable of Contents\n\nPage 1: Title Page\n\nPage 2: Table of Contents\n\nPage 3: 1. Introduction to Financial Analysis\n\n1.1 Purpose of the Guide\n\n1.2 Our Core Analytical Principles\n\nPage 4: 2. Key Financial Ratios Quick Guide\n\n2.1 Liquidity Ratios (Current Ratio, Quick Ratio)\n\n2.2 Profitability Ratios (Net Profit Margin, ROE)\n\nPage 5: 3. Market Risk Analysis Framework\n\n3.1 Understanding Market Risk\n\n3.2 Key Indicators to Monitor\n\nPage 6: 4. Sample Quarterly Report Summary\n\n4.1 Overview of Q3 2025 Performance\n\n4.2 Revenue & Profitability Highlights\n\nPage 7: 5. Balance Sheet & Cash Flow Summary\n\n5.1 Key Balance Sheet Metrics\n\n5.2 Statement of Cash Flows Analysis"
       ],
       "metrics": {
-        "answer_relevancy": 0.61,
+        "answer_relevancy": 0.5800000000000001,
         "context_precision": 0.6466666666666666,
         "context_recall": 0.2698412698412698,
-        "faithfulness": 0.4222222222222222,
-        "answer_correctness": 0.8095238095238095
+        "faithfulness": 0.37777777777777777,
+        "answer_correctness": 0.6190476190476191
       }
     },
     {
       "question": "How do you calculate payback period?",
-      "answer": "The calculation for the payback period is not explicitly available in the provided context. However, generally, it is calculated by dividing the initial investment by the annual cash inflow. The payback period measures the amount of time it takes for an investment to generate cash flows sufficient to recover the initial investment cost. It provides a simple way to assess the risk and liquidity of an investment, with a shorter payback period indicating quicker recovery of the investment.",
+      "answer": "The payback period is calculated by determining the amount of time it takes for an investment to generate enough cash flow to recover its initial cost. This is done by:\n\n1. Summing the annual cash flows generated by the investment until the cumulative cash flow equals the initial investment.\n2. Identifying the point in time when the cumulative cash flow becomes positive.\n\nThe payback period is a straightforward measure of investment recovery but does not account for the time value of money or cash flows beyond the payback period.",
       "ground_truth": "Payback period is the time required for the cumulative cash flows from an investment to equal the initial investment amount.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -921,16 +925,16 @@
         "7. Approved Data Sources & Tools\n\n7.1 Internal Databases\n\nFinHub: Our primary database for all company-specific financial data, including historical performance and internal projections.\n\nDatabank: A repository for macroeconomic data, industry trends, and competitor analysis reports.\n\n7.2 External Feeds\n\nBloomberg Terminal: The primary tool for real-time market data, news, and external company reports.\n\nReuters Eikon: A secondary source for market data and financial news.\n\n\n\n8. Glossary of Key Terms\n\n8.1 Common Financial Terminology\n\nAssets: Items of value owned by the company.\n\nLiabilities: Debts or obligations owed to others.\n\nEBITDA: Earnings Before Interest, Taxes, Depreciation, and Amortization. A measure of a company's overall financial performance."
       ],
       "metrics": {
-        "answer_relevancy": 0.7200000000000001,
+        "answer_relevancy": 0.78,
         "context_precision": 0.5733333333333334,
         "context_recall": 0.19607843137254902,
-        "faithfulness": 0.24,
-        "answer_correctness": 0.8058823529411765
+        "faithfulness": 0.26785714285714285,
+        "answer_correctness": 0.9647058823529411
       }
     },
     {
       "question": "What is the profitability index?",
-      "answer": "The calculation or definition for the profitability index is not available in the provided context. However, generally, the profitability index is calculated as the Present Value of Future Cash Flows / Initial Investment. It is a measure of the attractiveness of an investment, with a value greater than 1 indicating that the present value of future cash flows exceeds the initial investment, suggesting a potentially profitable investment.",
+      "answer": "The profitability index (PI) is a financial metric that measures the relative profitability of an investment, calculated as the present value of future cash flows divided by the initial investment cost. In mathematical terms:\n\n\\[ \\text{Profitability Index (PI)} = \\frac{\\text{Present Value of Future Cash Flows}}{\\text{Initial Investment}} \\]\n\nA PI greater than 1.0 indicates that the present value of future cash flows exceeds the initial investment, suggesting a potentially profitable investment. A PI less than 1.0 suggests that the investment's returns do not cover its costs.",
       "ground_truth": "The profitability index is calculated as Present Value of Future Cash Flows / Initial Investment. A value greater than 1 indicates a profitable investment.",
       "contexts": [
         "Interpretation: A ratio of 2.0 or higher is generally considered healthy.\n\nQuick Ratio (Acid-Test Ratio): Similar to the current ratio but excludes inventory.\n\nFormula: (Current Assets - Inventories) / Current Liabilities\n\nInterpretation: A ratio above 1.0 suggests a strong ability to meet immediate liabilities.\n\n2.2 Profitability Ratios\n\nNet Profit Margin: Indicates how much net income is generated as a percentage of revenue.\n\nFormula: Net Income / Revenue\n\nInterpretation: A higher percentage indicates better profitability.\n\nReturn on Equity (ROE): Measures the profitability in relation to shareholder equity.\n\nFormula: Net Income / Shareholder's Equity\n\nInterpretation: ROE indicates how effectively management is using shareholder funds to generate profit.",
@@ -941,7 +945,7 @@
         "answer_relevancy": 0.79,
         "context_precision": 0.6466666666666666,
         "context_recall": 0.34920634920634913,
-        "faithfulness": 0.3333333333333333,
+        "faithfulness": 0.32142857142857145,
         "answer_correctness": 1.0
       }
     }

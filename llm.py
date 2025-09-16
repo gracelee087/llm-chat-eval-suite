@@ -62,10 +62,10 @@ def log_search_query(query: str, results_count: int, top_scores: list):
             "metadata": log_data
         }])
         
-        print(f"✅ 검색 로그 저장됨: {query[:50]}...")
+        print(f"✅ Search log saved: {query[:50]}...")
         
     except Exception as e:
-        print(f"❌ 검색 로그 저장 실패: {e}")
+        print(f"❌ Search log save failed: {e}")
 
 
 def get_session_history(session_id: str) -> BaseChatMessageHistory:
@@ -284,8 +284,8 @@ def get_ai_response(user_message):
         for match in search_results.matches:
             top_scores.append(match.score)
         
-        print(f"검색된 문서 수: {len(search_results.matches)}")
-        print(f"상위 점수들: {top_scores[:3]}")
+        print(f"Retrieved documents: {len(search_results.matches)}")
+        print(f"Top scores: {top_scores[:3]}")
         
         # 검색 로그 저장
         log_search_query(user_message, len(search_results.matches), top_scores[:3])

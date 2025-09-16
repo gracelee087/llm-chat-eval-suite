@@ -301,7 +301,7 @@ def create_evaluation_dataset():
     
     # 각 질문에 대해 RAG 시스템 실행하여 컨텍스트와 답변 생성
     for i, item in enumerate(dataset, 1):
-        print(f"📝 처리 중 ({i}/50): {item['question']}")
+        print(f"📝 Processing ({i}/50): {item['question']}")
         
         # RAG 시스템으로 답변 생성
         try:
@@ -322,16 +322,16 @@ def create_evaluation_dataset():
             contexts = [doc.page_content for doc in filtered_docs[:3]]
             item['contexts'] = contexts
             
-            print(f"   검색된 문서: {len(docs)}개, 필터링 후: {len(filtered_docs)}개")
+            print(f"   Retrieved documents: {len(docs)}, After filtering: {len(filtered_docs)}")
             
             # AI 답변 생성
             ai_response = ''.join(list(get_ai_response(item['question'])))
             item['answer'] = ai_response
             
-            print(f"✅ 완료: {len(contexts)}개 컨텍스트, {len(ai_response)}자 답변")
+            print(f"✅ Completed: {len(contexts)} contexts, {len(ai_response)} characters answer")
             
             # 즉시 RAGAS 메트릭 계산 및 출력
-            print(f"\n📊 RAGAS 메트릭 계산 중...")
+            print(f"\n📊 Calculating RAGAS metrics...")
             
             # 개별 메트릭 계산
             answer_relevancy = calculate_answer_relevancy(item['question'], ai_response)
@@ -347,10 +347,10 @@ def create_evaluation_dataset():
             print(f"   Context Recall: {context_recall:.3f}")
             print(f"   Faithfulness: {faithfulness:.3f}")
             print(f"   Answer Correctness: {answer_correctness:.3f}")
-            print(f"   📝 답변 길이: {len(ai_response.split())} 단어")
-            print(f"   📚 컨텍스트 수: {len(contexts)}개")
+            print(f"   📝 Answer length: {len(ai_response.split())} words")
+            print(f"   📚 Context count: {len(contexts)}")
             if contexts:
-                print(f"   📄 첫 번째 컨텍스트: {contexts[0][:100]}...")
+                print(f"   📄 First context: {contexts[0][:100]}...")
             print("-" * 50)
             
             # 메트릭을 item에 저장
@@ -363,7 +363,7 @@ def create_evaluation_dataset():
             }
             
         except Exception as e:
-            print(f"❌ 오류: {e}")
+            print(f"❌ Error: {e}")
             item['contexts'] = []
             item['answer'] = ""
             item['metrics'] = {
@@ -658,15 +658,15 @@ def evaluate_quality_thresholds(avg_metrics):
 
 def run_ragas_evaluation():
     """RAGAS 평가 실행"""
-    print("🚀 RAGAS 평가 시작...")
+    print("🚀 Starting RAGAS evaluation...")
     print("=" * 60)
     
     # 1. 데이터셋 생성
-    print("📊 데이터셋 생성 중...")
+    print("📊 Creating dataset...")
     dataset = create_evaluation_dataset()
     
     # 2. 메트릭 계산
-    print("\n📈 RAGAS 메트릭 계산 중...")
+    print("\n📈 Calculating RAGAS metrics...")
     results = calculate_ragas_metrics(dataset)
     
     # 3. 전체 결과 계산
@@ -690,28 +690,28 @@ def run_ragas_evaluation():
     
     # 5. 결과 출력
     print("\n" + "=" * 60)
-    print("🎯 RAGAS 평가 결과")
+    print("🎯 RAGAS Evaluation Results")
     print("=" * 60)
-    print(f"📊 총 질문 수: {num_questions}")
-    print("\n📈 메트릭별 성능:")
+    print(f"📊 Total Questions: {num_questions}")
+    print("\n📈 Performance by Metric:")
     for metric, value in avg_metrics.items():
         quality = quality_scores[metric]
         print(f"   {metric}: {value:.3f} ({quality})")
     
     # 6. 개선 권장사항
-    print("\n🔧 개선 권장사항:")
+    print("\n🔧 Improvement Recommendations:")
     for metric, quality in quality_scores.items():
         if quality in ['Poor', 'Fair']:
             if metric == 'answer_relevancy':
-                print(f"   - {metric}: 답변 생성 프롬프트 개선 필요")
+                print(f"   - {metric}: Answer generation prompt improvement needed")
             elif metric == 'context_precision':
-                print(f"   - {metric}: 검색 알고리즘 및 임베딩 모델 개선 필요")
+                print(f"   - {metric}: Search algorithm and embedding model improvement needed")
             elif metric == 'context_recall':
-                print(f"   - {metric}: 문서 인덱싱 및 청킹 전략 개선 필요")
+                print(f"   - {metric}: Document indexing and chunking strategy improvement needed")
             elif metric == 'faithfulness':
-                print(f"   - {metric}: 답변 생성 시 컨텍스트 활용도 개선 필요")
+                print(f"   - {metric}: Context utilization during answer generation improvement needed")
             elif metric == 'answer_correctness':
-                print(f"   - {metric}: Ground truth 데이터 품질 및 답변 정확도 개선 필요")
+                print(f"   - {metric}: Ground truth data quality and answer accuracy improvement needed")
     
     # 7. JSON 파일로 저장
     evaluation_data = {
@@ -732,7 +732,7 @@ def run_ragas_evaluation():
     with open('ragas_evaluation_results.json', 'w', encoding='utf-8') as f:
         json.dump(evaluation_data, f, ensure_ascii=False, indent=2)
     
-    print(f"\n💾 결과가 ragas_evaluation_results.json에 저장되었습니다.")
+    print(f"\n💾 Results saved to ragas_evaluation_results.json")
     
     return evaluation_data
 

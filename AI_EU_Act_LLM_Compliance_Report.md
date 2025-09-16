@@ -1,292 +1,304 @@
-# AI EU Act 준수 및 LLM 모델 성능 평가 보고서
+# AI EU Act Compliance and LLM Model Performance Assessment Report
 
-## 📋 보고서 개요
+## 📋 Report Overview
 
-**보고서명**: AI EU Act 준수 및 회사 LLM 모델 성능 평가  
-**평가 기간**: 2024년 9월  
-**평가 대상**: Unity Financial Group LLM 채팅 시스템  
-**평가 방법**: RAGAS (Retrieval-Augmented Generation Assessment) 프레임워크  
-**준수 기준**: AI EU Act (Artificial Intelligence Act) 규정  
+**Report Title**: AI EU Act Compliance and Company LLM Model Performance Assessment  
+**Assessment Target**: Unity Financial Group LLM Chat System  
+**Assessment Method**: RAGAS (Retrieval-Augmented Generation Assessment) Framework  
+**Compliance Standard**: AI EU Act (Artificial Intelligence Act) Regulations  
 
----
-
-## 1. AI EU Act 규정 요약
-
-### 1.1 AI EU Act 핵심 요구사항
-
-**AI EU Act**는 2024년 12월부터 시행되는 유럽연합의 인공지능 규제법으로, 다음과 같은 핵심 요구사항을 포함합니다:
-
-#### **고위험 AI 시스템 요구사항**
-- **위험 관리 시스템**: AI 시스템의 위험을 식별, 평가, 완화
-- **데이터 품질 관리**: 훈련, 검증, 테스트 데이터의 품질 보장
-- **기술 문서화**: 시스템 설계, 개발, 배포 과정의 상세 문서화
-- **기록 보관**: 시스템 운영 및 의사결정 과정의 투명한 기록
-- **사용자 정보 제공**: AI 사용에 대한 명확한 정보 제공
-- **인적 감독**: AI 시스템의 적절한 인적 감독 체계
-- **정확성, 견고성, 사이버보안**: 시스템의 신뢰성과 안전성 보장
-
-#### **금융 서비스 특화 요구사항**
-- **투명성**: AI 의사결정 과정의 설명 가능성
-- **공정성**: 차별 없는 공정한 서비스 제공
-- **책임성**: AI 시스템 오류에 대한 명확한 책임 소재
-- **데이터 보호**: GDPR 준수 및 개인정보 보호
+**Note**: "Unity Financial Group" is a simulated company created for demonstration and evaluation purposes.  
 
 ---
 
-## 2. 회사 LLM 모델 현황
+## 1. AI EU Act Regulation Summary
 
-### 2.1 시스템 개요
+### 1.1 AI EU Act Core Requirements
 
-**모델명**: Unity Financial Group LLM 채팅 시스템  
-**용도**: 금융 상담 및 정보 제공  
-**기술 스택**: 
+**AI EU Act** is the European Union's artificial intelligence regulation law that will be enforced from December 2024, including the following core requirements:
+
+#### **High-Risk AI System Requirements**
+- **Risk Management System**: Identify, assess, and mitigate AI system risks
+- **Data Quality Management**: Ensure quality of training, validation, and test data
+- **Technical Documentation**: Detailed documentation of system design, development, and deployment processes
+- **Record Keeping**: Transparent records of system operation and decision-making processes
+- **User Information Provision**: Clear information provision about AI usage
+- **Human Oversight**: Appropriate human supervision system for AI systems
+- **Accuracy, Robustness, Cybersecurity**: Ensure system reliability and safety
+
+#### **Financial Services Specific Requirements**
+- **Transparency**: Explainability of AI decision-making processes
+- **Fairness**: Provision of fair services without discrimination
+- **Accountability**: Clear responsibility for AI system errors
+- **Data Protection**: GDPR compliance and personal information protection
+
+---
+
+## 2. Company LLM Model Status
+
+### 2.1 System Overview
+
+**Model Name**: Unity Financial Group LLM Chat System  
+**Purpose**: Financial consultation and information provision  
+**Technology Stack**: 
 - LLM: GPT-4 (OpenAI)
 - RAG: LangChain + Pinecone
-- 임베딩: text-embedding-3-large
-- 평가: RAGAS 프레임워크
+- Embedding: text-embedding-3-large
+- Evaluation: RAGAS Framework
 
-### 2.2 핵심 기능
-- 금융 비율 및 공식 설명
-- 리스크 관리 정보 제공
-- 투자 분석 가이드
-- 규제 준수 정보 제공
+### 2.2 Core Functions
+- Financial ratio and formula explanations
+- Risk management information provision
+- Investment analysis guidance
+- Regulatory compliance information provision
 
 ---
 
-## 3. RAGAS 성능 평가 결과
+## 3. RAGAS Performance Assessment Results
 
-### 3.1 평가 방법론
+### 3.1 Assessment Methodology
 
-**평가 데이터셋**: 50개 금융 전문 질문  
-**평가 메트릭**: 5개 핵심 지표
-- Answer Relevancy (답변 관련성)
-- Context Precision (컨텍스트 정확성)
-- Context Recall (컨텍스트 재현율)
-- Faithfulness (신뢰성)
-- Answer Correctness (답변 정확성)
+**Assessment Dataset**: 50 financial professional questions  
+**Assessment Metrics**: 5 core indicators
+- Answer Relevancy (Answer relevance)
+- Context Precision (Context accuracy)
+- Context Recall (Context recall rate)
+- Faithfulness (Reliability)
+- Answer Correctness (Answer accuracy)
 
-**평가 기준**: 금융업계 표준 (엄격한 기준 적용)
+**Assessment Criteria**: Financial industry standards (strict criteria applied)
 
-### 3.2 성능 평가 결과
+### 3.2 Performance Assessment Results
 
-#### **전체 성능 요약**
+#### **RAGAS Evaluation Results**
 ```
-📊 RAGAS 성능 평가 결과 (50개 질문 기준)
+🎯 RAGAS Evaluation Results
 ============================================================
-Answer Relevancy: 0.XXX (등급)
-Context Precision: 0.XXX (등급)
-Context Recall: 0.XXX (등급)
-Faithfulness: 0.XXX (등급)
-Answer Correctness: 0.XXX (등급)
+📊 Total Questions: 53
+
+📈 Performance by Metric:
+   answer_relevancy: 0.684 (Fair)
+   context_precision: 0.534 (Fair)
+   context_recall: 0.311 (Poor)
+   faithfulness: 0.442 (Poor)
+   answer_correctness: 0.849 (Good)
 ```
 
-#### **금융업계 기준 대비 성능**
-| 메트릭 | 현재 점수 | 기준 점수 | 상태 |
-|--------|-----------|-----------|------|
-| Answer Relevancy | 0.XXX | ≥ 0.70 | ✅/❌ |
-| Context Precision | 0.XXX | ≥ 0.70 | ✅/❌ |
-| Faithfulness | 0.XXX | ≥ 0.75 | ✅/❌ |
-| Answer Correctness | 0.XXX | ≥ 0.70 | ✅/❌ |
+#### **Performance vs Financial Industry Standards**
+| Metric | Current Score | Standard Score | Status |
+|--------|---------------|----------------|--------|
+| Answer Relevancy | 0.684 | ≥ 0.70 | ⚠️ Below Standard |
+| Context Precision | 0.534 | ≥ 0.70 | ❌ Below Standard |
+| Context Recall | 0.311 | ≥ 0.70 | ❌ Below Standard |
+| Faithfulness | 0.442 | ≥ 0.75 | ❌ Below Standard |
+| Answer Correctness | 0.849 | ≥ 0.70 | ✅ Above Standard |
 
-### 3.3 성능 분석
+### 3.3 Performance Analysis
 
-#### **강점**
-- [실제 평가 결과 기반으로 작성]
-- 높은 신뢰성 (Faithfulness)
-- 정확한 답변 생성 (Answer Correctness)
+#### **Strengths**
+- **Answer Correctness: 0.849 (Good)**: High answer accuracy achieved
+- **Answer Relevancy: 0.684 (Fair)**: Adequate answer relevance
+- **System Stability**: Consistent performance maintained
+- **Comprehensive Framework**: Comprehensive evaluation system established
 
-#### **개선 필요 영역**
-- [실제 평가 결과 기반으로 작성]
-- 컨텍스트 정확성 향상 필요
-- 답변 관련성 개선 필요
-
----
-
-## 4. AI EU Act 준수 상태 평가
-
-### 4.1 위험 관리 시스템 ✅
-
-**현재 상태**: 구현 완료
-- RAGAS 평가를 통한 지속적 성능 모니터링
-- 자동화된 품질 검증 시스템
-- 실시간 오류 감지 및 알림
-
-**준수 수준**: 완전 준수
-
-### 4.2 데이터 품질 관리 ✅
-
-**현재 상태**: 엄격한 기준 적용
-- 금융 전문 데이터베이스 활용
-- 정기적인 데이터 검증 및 업데이트
-- Ground Truth 기반 정확성 검증
-
-**준수 수준**: 완전 준수
-
-### 4.3 기술 문서화 ✅
-
-**현재 상태**: 상세 문서화 완료
-- 시스템 아키텍처 문서
-- 모델 성능 평가 보고서
-- 운영 가이드라인
-
-**준수 수준**: 완전 준수
-
-### 4.4 투명성 및 설명 가능성 ⚠️
-
-**현재 상태**: 부분적 구현
-- RAGAS 메트릭을 통한 성능 투명성
-- 답변 생성 과정 추적 가능
-- **개선 필요**: 사용자 대상 설명 강화
-
-**준수 수준**: 부분 준수
-
-### 4.5 인적 감독 체계 ✅
-
-**현재 상태**: 구현 완료
-- 금융 전문가 검토 프로세스
-- 정기적인 성능 검토
-- 오류 시 수동 개입 시스템
-
-**준수 수준**: 완전 준수
+#### **Critical Areas for Improvement**
+- **Context Recall: 0.311 (Poor)**: Major improvement needed in document indexing and chunking strategy
+- **Faithfulness: 0.442 (Poor)**: Improvement needed in context utilization during answer generation
+- **Context Precision: 0.534 (Fair)**: Search algorithm and embedding model improvement needed
+- **Answer Relevancy: 0.684 (Fair)**: Answer generation prompt improvement needed
 
 ---
 
-## 5. 리스크 평가 및 완화 방안
+## 4. AI EU Act Compliance Status Assessment
 
-### 5.1 식별된 리스크
+### 4.1 Risk Management System ✅
 
-#### **높은 리스크**
-- [실제 평가 결과 기반]
-- 답변 정확성 부족으로 인한 금융 리스크
-- 잘못된 정보 제공 가능성
+**Current Status**: Implemented
+- Continuous performance monitoring through RAGAS evaluation
+- Automated quality verification system
+- Real-time error detection and alerts
 
-#### **중간 리스크**
-- 컨텍스트 이해 부족
-- 사용자 질문 해석 오류
+**Compliance Level**: Full Compliance
 
-#### **낮은 리스크**
-- 시스템 안정성
-- 응답 속도
+### 4.2 Data Quality Management ✅
 
-### 5.2 완화 방안
+**Current Status**: Strict standards applied
+- Financial professional database utilization
+- Regular data validation and updates
+- Ground Truth-based accuracy verification
 
-#### **즉시 조치 (1개월 내)**
-1. **프롬프트 엔지니어링 개선**
-   - Chain of Thought 적용
-   - Few-shot Learning 강화
-   - 금융 전문 용어 정확성 향상
+**Compliance Level**: Full Compliance
 
-2. **검색 품질 최적화**
-   - 임베딩 모델 업그레이드
-   - 검색 임계값 조정
-   - 하이브리드 검색 도입
+### 4.3 Technical Documentation ✅
 
-#### **중기 조치 (3개월 내)**
-1. **실시간 모니터링 시스템 구축**
-   - 성능 대시보드
-   - 자동 알림 시스템
-   - A/B 테스트 프레임워크
+**Current Status**: Detailed documentation completed
+- System architecture documentation
+- Model performance assessment reports
+- Operational guidelines
 
-2. **사용자 피드백 시스템**
-   - 답변 품질 평가
-   - 오류 신고 시스템
-   - 지속적 학습
+**Compliance Level**: Full Compliance
 
-#### **장기 조치 (6개월 내)**
-1. **모델 파인튜닝**
-   - 금융 도메인 특화 학습
-   - 성능 기반 자동 개선
-   - 멀티모달 데이터 처리
+### 4.4 Transparency and Explainability ⚠️
 
----
+**Current Status**: Partially implemented
+- Performance transparency through RAGAS metrics
+- Answer generation process traceability
+- **Improvement Needed**: Enhanced user-facing explanations
 
-## 6. 경영진 권장사항
+**Compliance Level**: Partial Compliance
 
-### 6.1 즉시 조치사항
+### 4.5 Human Oversight System ✅
 
-1. **AI EU Act 완전 준수를 위한 추가 투자**
-   - 투명성 강화: 2주 내 사용자 설명 기능 추가
-   - 성능 개선: 1개월 내 RAGAS 점수 0.7 이상 달성
+**Current Status**: Implemented
+- Financial expert review process
+- Regular performance reviews
+- Manual intervention system for errors
 
-2. **리스크 관리 강화**
-   - 금융 전문가 검토 프로세스 확대
-   - 오류 시 즉시 대응 체계 구축
-
-### 6.2 중장기 전략
-
-1. **AI 거버넌스 체계 구축**
-   - AI 윤리 위원회 설립
-   - 정기적인 성능 감사
-   - 규제 변화 대응 체계
-
-2. **지속적 개선 프로세스**
-   - 월간 성능 평가
-   - 분기별 리스크 검토
-   - 연간 전략 수립
-
-### 6.3 투자 계획
-
-| 항목 | 예상 비용 | 기간 | ROI |
-|------|-----------|------|-----|
-| 성능 개선 | €50,000 | 3개월 | 200% |
-| 모니터링 시스템 | €30,000 | 6개월 | 150% |
-| 규제 준수 | €20,000 | 1년 | 300% |
+**Compliance Level**: Full Compliance
 
 ---
 
-## 7. 결론 및 다음 단계
+## 5. Risk Assessment and Mitigation Strategies
 
-### 7.1 현재 상태 요약
+### 5.1 Identified Risks
 
-**AI EU Act 준수 수준**: 80% (부분 준수)
-- ✅ 위험 관리, 데이터 품질, 기술 문서화, 인적 감독
-- ⚠️ 투명성 및 설명 가능성 (개선 필요)
+#### **High Risk**
+- [Based on actual assessment results]
+- Financial risk due to insufficient answer accuracy
+- Potential for providing incorrect information
 
-**LLM 모델 성능**: [실제 평가 결과 기반]
-- 현재 RAGAS 점수: [실제 점수]
-- 금융업계 기준 대비: [통과/미달]
+#### **Medium Risk**
+- Insufficient context understanding
+- User question interpretation errors
 
-### 7.2 권장 조치
+#### **Low Risk**
+- System stability
+- Response speed
 
-1. **즉시 조치** (1개월 내)
-   - 투명성 강화 기능 개발
-   - 성능 개선 프로젝트 시작
+### 5.2 Mitigation Strategies
 
-2. **단기 조치** (3개월 내)
-   - AI EU Act 완전 준수 달성
-   - 지속적 모니터링 시스템 구축
+#### **Immediate Actions (Within 1 month)**
+1. **Prompt Engineering Improvements**
+   - Apply Chain of Thought
+   - Strengthen Few-shot Learning
+   - Improve financial terminology accuracy
 
-3. **중기 조치** (6개월 내)
-   - AI 거버넌스 체계 완성
-   - 경쟁 우위 확보
+2. **Search Quality Optimization**
+   - Upgrade embedding models
+   - Adjust search thresholds
+   - Introduce hybrid search
 
-### 7.3 성공 지표
+#### **Medium-term Actions (Within 3 months)**
+1. **Real-time Monitoring System Construction**
+   - Performance dashboard
+   - Automated alert system
+   - A/B testing framework
 
-- **규제 준수**: AI EU Act 100% 준수
-- **성능 지표**: RAGAS 점수 0.8 이상
-- **비즈니스 임팩트**: 고객 만족도 90% 이상
-- **리스크 관리**: 오류율 1% 이하
+2. **User Feedback System**
+   - Answer quality evaluation
+   - Error reporting system
+   - Continuous learning
 
----
-
-## 8. 부록
-
-### 8.1 RAGAS 평가 상세 결과
-[실제 평가 결과 JSON 데이터]
-
-### 8.2 AI EU Act 준수 체크리스트
-[상세 준수 항목별 체크리스트]
-
-### 8.3 기술 문서
-[시스템 아키텍처, API 문서 등]
-
----
-
-**보고서 작성일**: 2024년 9월 16일  
-**작성자**: AI 성능 평가팀  
-**검토자**: [검토자명]  
-**승인자**: [승인자명]  
+#### **Long-term Actions (Within 6 months)**
+1. **Model Fine-tuning**
+   - Financial domain-specific learning
+   - Performance-based automatic improvement
+   - Multimodal data processing
 
 ---
 
-*본 보고서는 RAGAS 프레임워크를 활용한 객관적 성능 평가를 바탕으로 작성되었으며, AI EU Act 규정에 따른 준수 상태를 종합적으로 분석한 결과입니다.*
+## 6. Management Recommendations
+
+### 6.1 Immediate Actions
+
+1. **Additional Investment for Full AI EU Act Compliance**
+   - Enhanced transparency: Add user explanation features within 2 weeks
+   - Performance improvement: Achieve RAGAS score of 0.7+ within 1 month
+
+2. **Risk Management Strengthening**
+   - Expand financial expert review process
+   - Establish immediate response system for errors
+
+### 6.2 Medium to Long-term Strategy
+
+1. **AI Governance System Construction**
+   - Establish AI Ethics Committee
+   - Regular performance audits
+   - Regulatory change response system
+
+2. **Continuous Improvement Process**
+   - Monthly performance evaluation
+   - Quarterly risk review
+   - Annual strategy development
+
+### 6.3 Investment Plan
+
+| Item | Estimated Cost | Period | ROI |
+|------|----------------|--------|-----|
+| Performance Improvement | €50,000 | 3 months | 200% |
+| Monitoring System | €30,000 | 6 months | 150% |
+| Regulatory Compliance | €20,000 | 1 year | 300% |
+
+---
+
+## 7. Conclusion and Next Steps
+
+### 7.1 Current Status Summary
+
+**AI EU Act Compliance Level**: 80% (Partial Compliance)
+- ✅ Risk management, Data quality, Technical documentation, Human oversight
+- ⚠️ Transparency and explainability (Improvement needed)
+
+**LLM Model Performance**: 
+- **Answer Correctness**: 0.849 (Good) ✅
+- **Answer Relevancy**: 0.684 (Fair) ⚠️
+- **Context Precision**: 0.534 (Fair) ❌
+- **Context Recall**: 0.311 (Poor) ❌
+- **Faithfulness**: 0.442 (Poor) ❌
+- **Overall Status**: 4/5 metrics below financial industry standards
+- **Total Questions Evaluated**: 53
+
+### 7.2 Recommended Actions
+
+1. **Immediate Actions** (Within 1 month)
+   - Develop transparency enhancement features
+   - Start performance improvement project
+
+2. **Short-term Actions** (Within 3 months)
+   - Achieve full AI EU Act compliance
+   - Build continuous monitoring system
+
+3. **Medium-term Actions** (Within 6 months)
+   - Complete AI governance system
+   - Secure competitive advantage
+
+### 7.3 Success Indicators
+
+- **Regulatory Compliance**: 100% AI EU Act compliance
+- **Performance Metrics**: RAGAS score 0.8+
+- **Business Impact**: Customer satisfaction 90%+
+- **Risk Management**: Error rate below 1%
+
+---
+
+## 8. Appendix
+
+### 8.1 Detailed RAGAS Assessment Results
+[Actual assessment results JSON data]
+
+### 8.2 AI EU Act Compliance Checklist
+[Detailed compliance items checklist]
+
+### 8.3 Technical Documentation
+[System architecture, API documentation, etc.]
+
+---
+
+**Report Date**: September 16, 2024  
+**Author**: AI Performance Assessment Team  
+**Reviewer**: [Reviewer Name]  
+**Approver**: [Approver Name]  
+
+---
+
+*This report is based on objective performance assessment using the RAGAS framework and provides a comprehensive analysis of compliance status according to AI EU Act regulations.*
